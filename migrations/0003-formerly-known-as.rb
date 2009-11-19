@@ -31,10 +31,12 @@ class FormerlyKnownAsExtractor
     data['names'].each do |name|
       cleaned_name, former_name = process_name(name)
       cleaned_names << cleaned_name
-      former_names  << former_name
+      former_names  << former_name if former_name
     end
-    data['names']        = cleaned_names.uniq
-    data['former_names'] = former_names.uniq
+    data['names'] = cleaned_names.uniq
+    unless former_names.empty?
+      data['former_names'] = former_names.uniq
+    end
   end
   
   def process_name(name) 
