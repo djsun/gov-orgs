@@ -93,6 +93,8 @@ class UsaGovImporter
   
   def write_yaml(documents)
     full_filename = File.expand_path(output_filename, File.dirname(__FILE__))
+    dir = File.dirname(full_filename)
+    FileUtils.mkdir_p(dir) unless File.exists?(dir)
     Utility.write_yaml(full_filename, documents)
   end
   
