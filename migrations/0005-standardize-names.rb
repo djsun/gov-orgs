@@ -14,7 +14,6 @@ class NameStandardizer
       data = org['versions'][0]['data'].deep_clone
       names = data['names']
       s_names = standardize_names(names)
-      data['standardized_names'] = s_names
       data['names'] = (s_names + names).uniq
       new_version = YAML::Omap[
         'data', data,
