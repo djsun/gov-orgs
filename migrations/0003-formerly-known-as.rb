@@ -11,7 +11,7 @@ class FormerlyKnownAsExtractor
   TEMP_FILE   = expand('../data/orgs_temp.yaml')
 
   def run
-    modify_each_org do |org|
+    Utility.modify_each_org(MASTER_FILE, TEMP_FILE) do |org|
       data = org['versions'][0]['data'].deep_clone
       process_names(data)
       new_version = YAML::Omap[
@@ -24,32 +24,6 @@ class FormerlyKnownAsExtractor
   end
   
   protected
-
-  def modify_each_org
-    i = 0
-    puts "Reading #{MASTER_FILE}..."
-    File.open(MASTER_FILE) do |f_in|
-      puts "Creating #{TEMP_FILE}..."
-      File.open(TEMP_FILE, 'w') do |f_out|
-        YAML.load_documents(f_in) do |org|
-          print "."
-          STDOUT.flush if i % 25 == 0
-          i += 1
-          if org['versions'][0]['deleted'] != true
-            yield(org)
-          end
-          YAML.dump(org, f_out)
-        end
-      end
-    end
-    puts ""
-    puts "Deleting #{MASTER_FILE}..."
-    unless File.delete(MASTER_FILE) == 1
-      raise Error
-    end
-    puts "Renaming #{TEMP_FILE} to #{MASTER_FILE}..."
-    File.rename(TEMP_FILE, MASTER_FILE)
-  end
 
   def process_names(data)
     cleaned_names = []

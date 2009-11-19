@@ -1,5 +1,4 @@
 require File.expand_path('../lib/utility', File.dirname(__FILE__))
-require File.expand_path('../lib/validator', File.dirname(__FILE__))
 
 class NameStandardizer
 
@@ -11,31 +10,19 @@ class NameStandardizer
   TEMP_FILE   = expand('../data/orgs_temp.yaml')
 
   def run
-    File.open(MASTER_FILE) do |f_in|
-      File.open(TEMP_FILE, 'w') do |f_out|
-        YAML.load_documents(f_in) do |org|
-          latest_version = org['versions'][0]
-          if latest_version['deleted'] != true
-            data = latest_version['data'].deep_clone
-            names = data['names']
-            s_names = standardize_names(names)
-            data['standardized_names'] = s_names
-            data['names'] = (s_names + names).uniq
-            new_version = YAML::Omap[
-              'data', data,
-              'time', Utility.time_format(Time.now),
-              'who',  File.basename(__FILE__),
-            ]
-            org['versions'].insert(0, new_version)
-          end
-          YAML.dump(org, f_out)
-        end
-      end
+    Utility.modify_each_org(MASTER_FILE, TEMP_FILE) do |org|
+      data = org['versions'][0]['data'].deep_clone
+      names = data['names']
+      s_names = standardize_names(names)
+      data['standardized_names'] = s_names
+      data['names'] = (s_names + names).uniq
+      new_version = YAML::Omap[
+        'data', data,
+        'time', Utility.time_format(Time.now),
+        'who',  File.basename(__FILE__),
+      ]
+      org['versions'].insert(0, new_version)
     end
-    unless File.delete(MASTER_FILE) == 1
-      raise Error
-    end
-    File.rename(TEMP_FILE, MASTER_FILE)
   end
   
   protected

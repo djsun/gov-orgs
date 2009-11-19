@@ -4,6 +4,7 @@ require 'open-uri'
 require 'nokogiri'
 require 'sha1'
 require File.expand_path('omap', File.dirname(__FILE__))
+require File.expand_path('validator', File.dirname(__FILE__))
 
 class Utility
   
@@ -17,6 +18,34 @@ class Utility
     {
       "UserAgent" => "Government Organization Importer/0.1.0",
     }
+  end
+  
+  FLUSH_AFTER = 25
+  
+  def self.modify_each_org(master_filename, temp_filename, verbose=true)
+    i = 0
+    puts "Reading #{master_filename}..." if verbose
+    File.open(master_filename) do |f_in|
+      puts "Creating #{temp_filename}..." if verbose
+      File.open(temp_filename, 'w') do |f_out|
+        YAML.load_documents(f_in) do |org|
+          if verbose
+            print "."
+            STDOUT.flush if i % FLUSH_AFTER == 0
+          end
+          i += 1
+          if org['versions'][0]['deleted'] != true
+            yield(org)
+          end
+          YAML.dump(org, f_out)
+        end
+      end
+    end
+    Validator.new(:filename => temp_filename).run
+    puts "\nDeleting #{master_filename}..." if verbose
+    File.delete(master_filename)
+    puts "Renaming #{temp_filename} to #{master_filename}..." if verbose
+    File.rename(temp_filename, master_filename)
   end
   
   def self.parse_file(filename)
