@@ -10,8 +10,8 @@ class FederalRegisterImporter
     File.expand_path(s, File.dirname(__FILE__))
   end
   
-  MASTER_FILE = expand '../data/orgs.yaml'
-  IMPORT_FILE = expand '0002-orgs_and_codes.txt'
+  MASTER_FILE = expand('../data/orgs.yaml')
+  IMPORT_FILE = expand('0002-orgs_and_codes.txt')
 
   def run
     load_import_file

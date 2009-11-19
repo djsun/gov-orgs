@@ -16,6 +16,7 @@ class Validator
 
   def run
     validate
+    puts "\nValidating #{filename}..."
     File.open(filename) do |f|
       org_count     = 0
       version_count = 0
@@ -34,7 +35,6 @@ class Validator
           active_count += 1
         end
       end
-      puts "Summary:"
       puts '  * %5i entities' % [org_count]
       puts '  * %5i active entities' % [active_count]
       puts '  * %5i deleted entities' % [deleted_count]
