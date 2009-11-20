@@ -13,19 +13,22 @@ class FormerlyKnownAsExtractor
   def run
     Utility.modify_each_org(MASTER_FILE, TEMP_FILE) do |org|
       data = org['versions'][0]['data'].deep_clone
-      process_names(data)
-      new_version = YAML::Omap[
-        'data', data,
-        'time', Utility.time_format(Time.now),
-        'who',  File.basename(__FILE__),
-      ]
-      org['versions'].insert(0, new_version)
+      new_data = process_names(data)
+      if new_data != data
+        new_version = YAML::Omap[
+          'data', new_data,
+          'time', Utility.time_format(Time.now),
+          'who',  File.basename(__FILE__),
+        ]
+        org['versions'].insert(0, new_version)
+      end
     end
   end
   
   protected
 
   def process_names(data)
+    new_data = data.clone
     cleaned_names = []
     former_names  = []
     data['names'].each do |name|
@@ -33,10 +36,11 @@ class FormerlyKnownAsExtractor
       cleaned_names << cleaned_name
       former_names  << former_name if former_name
     end
-    data['names'] = cleaned_names.uniq
+    new_data['names'] = cleaned_names.uniq
     unless former_names.empty?
-      data['former_names'] = former_names.uniq
+      new_data['former_names'] = former_names.uniq
     end
+    new_data
   end
   
   def process_name(name) 

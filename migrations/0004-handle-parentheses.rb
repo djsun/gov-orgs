@@ -13,30 +13,34 @@ class ParetheticalExtractor
   def run
     Utility.modify_each_org(MASTER_FILE, TEMP_FILE) do |org|
       data = org['versions'][0]['data'].deep_clone
-      process_names(data)
-      new_version = YAML::Omap[
-        'data', data,
-        'time', Utility.time_format(Time.now),
-        'who',  File.basename(__FILE__),
-      ]
-      org['versions'].insert(0, new_version)
+      new_data = process_names(data)
+      if new_data != data
+        new_version = YAML::Omap[
+          'data', new_data,
+          'time', Utility.time_format(Time.now),
+          'who',  File.basename(__FILE__),
+        ]
+        org['versions'].insert(0, new_version)
+      end
     end
   end
   
   protected
 
   def process_names(data)
+    new_data = data.clone
     cleaned_names  = []
     parentheticals = []
-    data['names'].each do |name|
+    new_data['names'].each do |name|
       c, p = process_name(name)
       cleaned_names << c
       parentheticals.concat(p)
     end
     data['names'] = cleaned_names.uniq
     unless parentheticals.empty?
-      data['parentheticals'] = parentheticals.uniq
+      new_data['parentheticals'] = parentheticals.uniq
     end
+    new_data
   end
   
   def process_name(name)
