@@ -18,8 +18,11 @@ class MigrationExtractor
     end
   end
   
-  TEMPLATE_FILENAME = File.expand_path(
-    '../templates/merge_migration_template.rb', File.dirname(__FILE__))
+  def self.expand(s)
+    File.expand_path(s, File.dirname(__FILE__))
+  end
+    
+  TEMPLATE_FILENAME = expand('../templates/merge_migration_template.rb')
 
   def run
     validate
