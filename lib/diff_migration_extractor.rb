@@ -1,7 +1,7 @@
 require File.expand_path('migrations', File.dirname(__FILE__))
 require File.expand_path('utility', File.dirname(__FILE__))
 
-class MigrationExtractor
+class DiffMigrationExtractor
 
   class Error < RuntimeError; end
 
@@ -22,7 +22,7 @@ class MigrationExtractor
     File.expand_path(s, File.dirname(__FILE__))
   end
     
-  TEMPLATE_FILENAME = expand('../templates/merge_migration_template.rb')
+  TEMPLATE_FILENAME = expand('../templates/diff_migration_template.rb')
 
   def run
     validate

@@ -25,26 +25,38 @@ task :validate do
 end
 
 namespace :migration do
-  desc "create new migration"
-  task :new do
-    require 'lib/migrations'
-    FileUtils.copy('templates/new_migration_template.rb',
-      Migrations.next_filename('change_this'))
-  end
+  namespace :create do
+    desc "create new plain migration"
+    task :plain do
+      require 'lib/migrations'
+      FileUtils.copy('templates/new_migration_template.rb',
+        Migrations.next_filename('change_this'))
+    end
+    
+    desc "create migration from merge_log.yaml"
+    task :merge do
+      require 'lib/merge_migration_extractor'
+      MergeMigrationExtractor.new({
+        :merge_log_filename => 'data/merge_log.yaml'
+      }).run
+    end
 
-  desc "create new migration from orgs.yaml"
-  task :extract do
-    require 'lib/migration_extractor'
-    MigrationExtractor.new({
-      :new_filename => 'data/orgs.yaml',
-      :old_filename => 'data/orgs_baseline.yaml',
-    }).run
+    desc "create migration from diff of orgs.yaml and orgs_baseline.yaml"
+    task :diff do
+      require 'lib/diff_migration_extractor'
+      DiffMigrationExtractor.new({
+        :new_filename => 'data/orgs.yaml',
+        :old_filename => 'data/orgs_baseline.yaml',
+      }).run
+    end
   end
   
-  desc "destroy orgs.yaml and run all migrations"
-  task :run_all do
-    require 'lib/migrations'
-    Migrations.run_all
+  namespace :run do
+    desc "destroy orgs.yaml and run all migrations"
+    task :all do
+      require 'lib/migrations'
+      Migrations.run_all
+    end
   end
 end
 
@@ -59,7 +71,6 @@ namespace :similarities do
     SimilaritySorter.new.run
   end
 end
-
 
 namespace :merge do
   desc "calculate similarities"

@@ -13,20 +13,36 @@ class MergeSuggester
 
   SIM_FILE = expand('../data/similarities_sorted.csv')
   ORG_FILE = expand('../data/orgs.yaml')
-  BASELINE_FILE = expand('../data/orgs_baseline.yaml')
   TAILED_FILES = [
     expand('../data/temp_merge_1.txt'),
     expand('../data/temp_merge_2.txt'),
   ]
+  MERGE_LOG        = expand('../data/merge_log.yaml')
+  NO_MERGE_LOG     = expand('../data/no_merge_log.yaml')
+  UNSURE_MERGE_LOG = expand('../data/unsure_merge_log.yaml')
 
   def run
+    @merge = read_log(MERGE_LOG)
+    @no_merge = read_log(NO_MERGE_LOG)
+    @unsure_merge = read_log(UNSURE_MERGE_LOG)
     setup_tailed_files
-    create_baseline
     read_similarities
     read_organizations
+    open_merge_logs
     make_suggestions
-    write_organizations
     close_tailed_files
+    close_merge_logs
+  end
+  
+  def read_log(filename)
+    items = {}
+    return unless File.exists?(filename)
+    File.open(filename) do |f|
+      YAML.load_documents(f) do |item|
+        items[item['uids']] = true
+      end
+    end
+    items
   end
 
   def read_similarities
@@ -50,29 +66,28 @@ class MergeSuggester
   
   def setup_tailed_files
     @tailed_files = TAILED_FILES.map { |fname| File.open(fname, 'a') }
-    puts "Please open up two terminal windows and run these commands:"
+    puts "\nPlease open up two terminal windows and run these commands:"
     TAILED_FILES.each { |fname| puts "tail -f #{fname}" }
     puts "\nPress any key to continue..."
     HighLine::SystemExtensions.get_character
-  end
-  
-  def create_baseline
-    FileUtils.copy(ORG_FILE, BASELINE_FILE)
   end
   
   def close_tailed_files
     @tailed_files.each { |f| f.close }
   end
 
-  def write_organizations
-    puts "\nWriting organizations file..."
-    File.open(ORG_FILE, "w") do |f|
-      @uids.each do |uid|
-        YAML.dump(YAML::Omap['uid', uid, 'versions', @data[uid]], f)
-      end
-    end
+  def open_merge_logs
+    @merge_log        = File.open(MERGE_LOG, 'a')
+    @no_merge_log     = File.open(NO_MERGE_LOG, 'a')
+    @unsure_merge_log = File.open(UNSURE_MERGE_LOG, 'a')
   end
 
+  def close_merge_logs
+    @merge_log.close
+    @no_merge_log.close
+    @unsure_merge_log.close
+  end
+  
   def make_suggestions
     catch(:quit) do
       @similarites.each do |row|
@@ -84,20 +99,27 @@ class MergeSuggester
           puts "  * #{uid_2}"
           next
         end
+        
+        if marked?([uid_1, uid_2])
+          puts "\n  The user has marked these:"
+          puts "  * #{uid_1}"
+          puts "  * #{uid_2}"
+          next
+        end
+        
         puts "\n  Similarity: %.5f" % [sim]
         display_names(uid_1, uid_2)
         loop do
-          puts "\n  Press a key : [m]erge | [M]erge & save | [s]kip | [q]uit ..."
+          puts "\n  [=] same | [/] different | [u] unsure | [q]uit"
           case HighLine::SystemExtensions.get_character.chr
-          when 'm'
-            do_merge(uid_1, uid_2)
+          when '='
+            log(:merge, uid_1, uid_2)
             break
-          when 'M'
-            do_merge(uid_1, uid_2)
-            write_organizations
+          when '/'
+            log(:no_merge, uid_1, uid_2)
             break
-          when 's'
-            puts "\n  Skipping merge"
+          when 'u'
+            log(:unsure, uid_1, uid_2)
             break
           when 'q'
             throw :quit
@@ -106,29 +128,44 @@ class MergeSuggester
       end
     end
   end
+  
+  def marked?(uids)
+    raise ArgumentError unless uids.length == 2
+    marked_same?(uids) || marked_different?(uids) || marked_unsure?(uids)
+  end
+  
+  def marked_same?(uids)
+    raise ArgumentError unless uids.length == 2
+    [uids, uids.reverse].any? { |x| @merge[x] }
+  end
+  
+  def marked_different?(uids)
+    raise ArgumentError unless uids.length == 2
+    [uids, uids.reverse].any? { |x| @no_merge[x] }
+  end
+  
+  def marked_unsure?(uids)
+    raise ArgumentError unless uids.length == 2
+    [uids, uids.reverse].any? { |x| @unsure_merge[x] }
+  end
 
   def already_merged?(*items)
     items.any? { |uid| @data[uid][0]['merged_into'] }
   end
-
-  def do_merge(uid_1, uid_2)
-    puts "\n  Merging"
-    data_1 = @data[uid_1][0]['data']
-    data_2 = @data[uid_2][0]['data']
-    
-    @data[uid_1].insert(0, YAML::Omap[
-      'data',        data_1.merge(data_2),
-      'time',        Utility.time_format(Time.new),
-      'who',         File.basename(__FILE__),
-      'merged_from', uid_2,
-    ])
-
-    @data[uid_2].insert(0, YAML::Omap[
-      'deleted',     true,
-      'merged_into', uid_1,
-      'time',        Utility.time_format(Time.new),
-      'who',         File.basename(__FILE__),
-    ])
+  
+  def log(command, uid_1, uid_2)
+    log = case command
+    when :merge    then @merge_log
+    when :no_merge then @no_merge_log
+    when :unsure   then @unsure_merge_log
+    else raise "unexpected"
+    end
+    puts "  Log: #{command}"
+    YAML.dump(YAML::Omap[
+      'uids', [uid_1, uid_2],
+      'time', Utility.time_format(Time.now),
+    ], log)
+    log.flush
   end
 
   def display_names(*items)
