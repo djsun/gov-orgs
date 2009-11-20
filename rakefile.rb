@@ -2,8 +2,17 @@ desc "backup orgs.yaml"
 task :backup do
   require 'lib/backup'
   BackerUpper.new({
-    :input_filename => 'data/orgs.yaml',
+    :input_filename  => 'data/orgs.yaml',
     :output_filename => 'data/orgs_backup.yaml',
+  }).run
+end
+
+desc "copy orgs.yaml to orgs_baseline.yaml"
+task :baseline do
+  require 'lib/backup'
+  BackerUpper.new({
+    :input_filename  => 'data/orgs.yaml',
+    :output_filename => 'data/orgs_baseline.yaml',
   }).run
 end
 
