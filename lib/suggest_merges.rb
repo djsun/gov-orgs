@@ -11,8 +11,9 @@ class MergeSuggester
     File.expand_path(s, File.dirname(__FILE__))
   end
 
-  SIM_FILE   = expand('../data/similarities_sorted.csv')
-  ORG_FILE   = expand('../data/orgs.yaml')
+  SIM_FILE = expand('../data/similarities_sorted.csv')
+  ORG_FILE = expand('../data/orgs.yaml')
+  BASELINE_FILE = expand('../data/orgs_baseline.yaml')
   TAILED_FILES = [
     expand('../data/temp_merge_1.txt'),
     expand('../data/temp_merge_2.txt'),
@@ -20,6 +21,7 @@ class MergeSuggester
 
   def run
     setup_tailed_files
+    create_baseline
     read_similarities
     read_organizations
     make_suggestions
@@ -52,6 +54,10 @@ class MergeSuggester
     TAILED_FILES.each { |fname| puts "tail -f #{fname}" }
     puts "\nPress any key to continue..."
     HighLine::SystemExtensions.get_character
+  end
+  
+  def create_baseline
+    FileUtils.copy(ORG_FILE, BASELINE_FILE)
   end
   
   def close_tailed_files
@@ -138,6 +144,5 @@ class MergeSuggester
   def clear(stream)
     stream.print "\e[H\e[2J"
   end
-  
 
 end

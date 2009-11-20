@@ -28,7 +28,7 @@ namespace :migration do
     require 'lib/migration_extractor'
     MigrationExtractor.new({
       :new_filename => 'data/orgs.yaml',
-      :old_filename => 'data/orgs_backup.yaml',
+      :old_filename => 'data/orgs_baseline.yaml',
     }).run
   end
   
