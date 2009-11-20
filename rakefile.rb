@@ -72,13 +72,13 @@ namespace :similarities do
   end
 end
 
-namespace :merge do
-  desc "calculate similarities"
-  task :setup => ["similarities:compute", "similarities:sort"]
-  
-  desc "start interactive merge"
-  task :interactive do
-    require 'lib/suggest_merges'
-    MergeSuggester.new.run
-  end
+desc "interactive merge"
+task :merge => ["similarities:compute", "similarities:sort"] do
+  require 'lib/suggest_merges'
+  MergeSuggester.new.run
+end
+
+task :_merge do
+  require 'lib/suggest_merges'
+  MergeSuggester.new.run
 end
