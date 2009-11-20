@@ -11,14 +11,20 @@ class MergeSuggester
     File.expand_path(s, File.dirname(__FILE__))
   end
 
-  SIM_FILE = expand('../data/similarities_sorted.csv')
-  ORG_FILE = expand('../data/orgs.yaml')
+  SIM_FILE   = expand('../data/similarities_sorted.csv')
+  ORG_FILE   = expand('../data/orgs.yaml')
+  TAILED_FILES = [
+    expand('../data/temp_merge_1.txt'),
+    expand('../data/temp_merge_2.txt'),
+  ]
 
   def run
+    setup_tailed_files
     read_similarities
     read_organizations
     make_suggestions
     write_organizations
+    close_tailed_files
   end
 
   def read_similarities
@@ -38,6 +44,18 @@ class MergeSuggester
         @data[org['uid']] = org['versions']
       end
     end
+  end
+  
+  def setup_tailed_files
+    @tailed_files = TAILED_FILES.map { |fname| File.open(fname, 'a') }
+    puts "Please open up two terminal windows and run these commands:"
+    TAILED_FILES.each { |fname| puts "tail -f #{fname}" }
+    puts "\nPress any key to continue..."
+    HighLine::SystemExtensions.get_character
+  end
+  
+  def close_tailed_files
+    @tailed_files.each { |f| f.close }
   end
 
   def write_organizations
@@ -109,9 +127,17 @@ class MergeSuggester
 
   def display_names(*items)
     items.each_with_index do |uid, k|
-      puts "\n  (%i) %s" % [k + 1, uid]
-      puts @data[uid].to_yaml.split("\n").map { |x| "      #{x}" }.join("\n")
+      f = @tailed_files[k]
+      clear(f)
+      f.puts "\n  (%i) %s" % [k + 1, uid]
+      f.puts @data[uid].to_yaml.split("\n").map { |x| "      #{x}" }.join("\n")
+      f.flush
     end
   end
+  
+  def clear(stream)
+    stream.print "\e[H\e[2J"
+  end
+  
 
 end
