@@ -40,12 +40,13 @@ class NameStandardizer
 
   def simplify(name)
     name.
-    gsub(/generally, no additional specification available/i, '').
+    gsub(/generally, .*/i, '').
     gsub(/- except .*/i, '').
     gsub(/, except .*/i, '').
     gsub(/\(except .*/i, '').
     gsub(/\//, ' / ').
     gsub(/  /, ' ').
+    strip.
     gsub(/,$/, '').
     strip
   end
