@@ -36,10 +36,11 @@ class MergeSuggester
   
   def read_log(filename)
     items = {}
-    return unless File.exists?(filename)
-    File.open(filename) do |f|
-      YAML.load_documents(f) do |item|
-        items[item['uids']] = true
+    if File.exists?(filename)
+      File.open(filename) do |f|
+        YAML.load_documents(f) do |item|
+          items[item['uids']] = true
+        end
       end
     end
     items
