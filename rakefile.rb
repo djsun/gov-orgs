@@ -92,6 +92,7 @@ task :upload do
   writer = ApiWriter.new({
     :api_key       => config["api"]["api_key"],
     :base_uri      => config["api"]["base_uri"],
+    :log_filename  => "data/upload_errors.yaml",
     :time_delay    => config["api"]["time_delay"],
     :orgs_filename => "data/orgs.yaml",
   })
