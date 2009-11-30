@@ -34,10 +34,12 @@ class ApiWriter
       latest_version = org['versions'][0]
       data = latest_version['data']
       names = data['names']
+      urls = data['urls']
       DataCatalog::Organization.create({
         :name        => names[0],
         :names       => names,
         :acronym     => "",
+        :url         => urls[0],
         :org_type    => "governmental",
         :description => "",
         :raw         => org.simplify,
