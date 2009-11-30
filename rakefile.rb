@@ -82,3 +82,19 @@ task :_merge do
   require 'lib/suggest_merges'
   MergeSuggester.new.run
 end
+
+desc "Upload organizations to Data Catalog API"
+task :upload do
+  require 'config/config'
+  Config.validate
+  config = Config.environment_config
+  require 'lib/api_writer'
+  writer = ApiWriter.new({
+    :api_key       => config["api"]["api_key"],
+    :base_uri      => config["api"]["base_uri"],
+    :time_delay    => config["api"]["time_delay"],
+    :orgs_filename => "data/orgs.yaml",
+  })
+  puts "Uploading organizations to API..."
+  writer.run
+end

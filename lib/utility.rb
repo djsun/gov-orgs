@@ -20,6 +20,26 @@ class Utility
     }
   end
   
+  # The caller can 'throw :stop' to interrupt
+  def self.each_org(org_filename, verbose=true)
+    i = 0
+    catch(:stop) do
+      File.open(org_filename) do |f|
+        YAML.load_documents(f) do |doc|
+          if verbose
+            print "."
+            STDOUT.flush if i % FLUSH_AFTER == 0
+          end
+          i += 1
+          if doc['versions'][0]['deleted'] != true
+            yield(doc)
+          end
+        end
+      end
+    end
+    puts "" if verbose
+  end
+  
   FLUSH_AFTER = 25
   
   def self.modify_each_org(master_filename, temp_filename, verbose=true)
@@ -59,6 +79,12 @@ class Utility
     open(uri, headers) do |io|
       Nokogiri::HTML(io)
     end
+  end
+  
+  def self.setup_api(api_key, base_uri)
+    require 'datacatalog'
+    DataCatalog.api_key  = api_key
+    DataCatalog.base_uri = base_uri
   end
   
   def self.time_format(t)

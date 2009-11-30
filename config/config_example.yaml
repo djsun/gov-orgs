@@ -1,0 +1,5 @@
+development: &template
+  api:
+    api_key: "0000000000000000000000000000000000000000"
+    base_uri: http://localhost:3000
+    time_delay: 0
