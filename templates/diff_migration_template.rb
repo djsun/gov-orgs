@@ -1,4 +1,4 @@
-require File.expand_path('../lib/merge_migration', File.dirname(__FILE__))
+require File.expand_path('../lib/diff_migration', File.dirname(__FILE__))
 
 def expand(path)
   File.expand_path(path, File.dirname(__FILE__))
