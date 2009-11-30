@@ -39,7 +39,7 @@ class ApiWriter
         :name        => names[0],
         :names       => names,
         :acronym     => "",
-        :url         => urls[0],
+        :url         => urls ? urls[0] : '',
         :org_type    => "governmental",
         :description => "",
         :raw         => org.simplify,
