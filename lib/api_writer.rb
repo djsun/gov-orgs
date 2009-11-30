@@ -36,6 +36,7 @@ class ApiWriter
       names = data['names']
       DataCatalog::Organization.create({
         :name        => names[0],
+        :names       => names,
         :acronym     => "",
         :org_type    => "governmental",
         :description => "",
