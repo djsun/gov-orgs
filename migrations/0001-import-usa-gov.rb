@@ -56,9 +56,10 @@ class UsaGovImporter
   def get_organizations(doc, uri)
     time = Time.now
     doc.css(org_selector).map do |x|
+      url = make_absolute_url(x['href'])
       data = YAML::Omap[
         'names', [x.content],
-        'urls',  [x['href']],
+        'urls',  [url],
       ]
       signature = "#{x.content} #{x['href']}"
       YAML::Omap[
@@ -73,6 +74,15 @@ class UsaGovImporter
         ]
       ]
     end
+  end
+  
+  def make_absolute_url(raw_url)
+    url = raw_url.strip
+    uri = URI.parse(url)
+    unless uri.absolute?
+      uri = URI.parse(base_uri + url)
+    end
+    uri.to_s
   end
   
   def get_page_uris(doc)
