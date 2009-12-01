@@ -7,8 +7,9 @@ class ParetheticalExtractor
     File.expand_path(s, File.dirname(__FILE__))
   end
   
-  MASTER_FILE = expand('../data/orgs.yaml')
-  TEMP_FILE   = expand('../data/orgs_temp.yaml')
+  MASTER_FILE    = expand('../data/orgs.yaml')
+  TEMP_FILE      = expand('../data/orgs_temp.yaml')
+  REPOSITORY_URL = 'http://github.com/djsun/gov-orgs'
 
   def run
     Utility.modify_each_org(MASTER_FILE, TEMP_FILE) do |org|
@@ -18,7 +19,10 @@ class ParetheticalExtractor
         new_version = YAML::Omap[
           'data', new_data,
           'time', Utility.time_format(Time.now),
-          'who',  File.basename(__FILE__),
+          'by',   YAML::Omap[
+            'repository', REPOSITORY_URL,
+            'file',       File.basename(__FILE__),
+          ],
         ]
         org['versions'].insert(0, new_version)
       end

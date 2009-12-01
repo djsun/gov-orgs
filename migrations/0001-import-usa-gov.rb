@@ -15,6 +15,8 @@ class UsaGovImporter
     time_delay
   )
   
+  REPOSITORY_URL = 'http://github.com/djsun/gov-orgs'
+  
   FIELDS.each { |f| attr_accessor f.intern }
   
   def initialize(options)
@@ -68,8 +70,11 @@ class UsaGovImporter
           YAML::Omap[
             'data',       data,
             'time',       Utility.time_format(time),
-            'who',        File.basename(__FILE__),
             'import_uri', uri,
+            'by',         YAML::Omap[
+              'repository', REPOSITORY_URL,
+              'file',       File.basename(__FILE__),
+            ],
           ]
         ]
       ]

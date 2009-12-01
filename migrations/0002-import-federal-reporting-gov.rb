@@ -10,8 +10,9 @@ class FederalRegisterImporter
     File.expand_path(s, File.dirname(__FILE__))
   end
   
-  MASTER_FILE = expand('../data/orgs.yaml')
-  IMPORT_FILE = expand('0002-orgs_and_codes.txt')
+  MASTER_FILE    = expand('../data/orgs.yaml')
+  IMPORT_FILE    = expand('0002-orgs_and_codes.txt')
+  REPOSITORY_URL = 'http://github.com/djsun/gov-orgs'
 
   def run
     load_import_file
@@ -68,8 +69,12 @@ class FederalRegisterImporter
         YAML::Omap[
           'data',       data,
           'time',       Utility.time_format(time),
-          'who',        File.basename(__FILE__),
           'source_uri', IMPORT_URI,
+          'by',         YAML::Omap[
+            'repository', REPOSITORY_URL,
+            'file',       File.basename(__FILE__),
+          ],
+
         ]
       ]
     ]

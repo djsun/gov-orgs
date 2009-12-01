@@ -11,6 +11,8 @@ class MergeMigration
     merge_log_filename
   )
   
+  REPOSITORY_URL = 'http://github.com/djsun/gov-orgs'
+  
   FIELDS.each { |f| attr_accessor f.intern }
 
   def initialize(options)
@@ -107,14 +109,20 @@ class MergeMigration
     @versions[uids[0]].insert(0, YAML::Omap[
       'data',        datas[0].merge(datas[1]),
       'time',        Utility.time_format(Time.new),
-      'who',         File.basename(__FILE__),
       'merged_from', uids[1],
+      'by',          YAML::Omap[
+        'repository', REPOSITORY_URL,
+        'file',       File.basename(__FILE__),
+      ],
     ])
     @versions[uids[1]].insert(0, YAML::Omap[
       'deleted',     true,
       'merged_into', uids[0],
       'time',        Utility.time_format(Time.new),
-      'who',         File.basename(__FILE__),
+      'by',          YAML::Omap[
+        'repository', REPOSITORY_URL,
+        'file',       File.basename(__FILE__),
+      ],
     ])
   end
 
