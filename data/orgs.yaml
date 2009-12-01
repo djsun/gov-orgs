@@ -504,6 +504,19 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Centers for Medicare and Medicaid Services
+          - Centers for Medicare & Medicaid Services
+        - urls: 
+          - http://www.cms.hhs.gov
+        - former_names: 
+          - Health Care Financing Administration
+    - time: 2009-12-01 14:09:01 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Centers for Medicare & Medicaid Services
         - urls: 
           - http://www.cms.hhs.gov
@@ -2319,6 +2332,17 @@
 --- !omap 
 - uid: f1b4aab6e58fb2043d1ffaae182e62a3c3c8f315
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Economics and Statistics Administration
+          - Economics & Statistics Administration
+        - urls: 
+          - http://www.esa.doc.gov/
+    - time: 2009-12-01 14:09:01 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6540,6 +6564,19 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Occupational Safety and Health Administration
+          - Occupational Safety & Health Administration
+        - urls: 
+          - http://www.osha.gov/
+        - parentheticals: 
+          - OSHA
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Occupational Safety & Health Administration
         - urls: 
           - http://www.osha.gov/
@@ -7182,6 +7219,16 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Prisoner of War / Missing Personnel Office
+        - urls: 
+          - http://www.dtic.mil/dpmo/
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Prisoner of War/Missing Personnel Office
         - urls: 
           - http://www.dtic.mil/dpmo/
@@ -7301,6 +7348,18 @@
 --- !omap 
 - uid: 32bf6de1ab6ad5775c7c464e3a8b91b004a4fefe
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Radio Free Europe / Radio Liberty
+        - urls: 
+          - http://www.rferl.org/
+        - parentheticals: 
+          - RFE/RL
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -9159,6 +9218,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Congress
+        - parents: 
+          - 780720fa637346368c04263efca848db90c83336
+        - federalreporting.gov: !omap 
+            - names: 
+              - Congress, generally, no additional specification available
+            - codes: 
+              - "0001"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Congress, generally, no additional specification available
         - parents: 
           - 780720fa637346368c04263efca848db90c83336
@@ -9292,6 +9366,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Federal Library and Information Center Committee
+          - Federal Library & Information Center Committee
+        - parents: 
+          - 19d61b02a81f00c47246b11101e8e9630f503882
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Library & Information Center Committee
+            - codes: 
+              - "0363"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Federal Library & Information Center Committee
         - parents: 
           - 19d61b02a81f00c47246b11101e8e9630f503882
@@ -9365,6 +9455,21 @@
 --- !omap 
 - uid: e67247c2d4ab34ae3ea9f3ce155715940578edd5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - GAO
+        - parents: 
+          - bf5e8082155162e079ca29256586353129261942
+        - federalreporting.gov: !omap 
+            - names: 
+              - GAO, except Comptroller General
+            - codes: 
+              - 0559
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -9710,6 +9815,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - U.S. Courts of Appeals Judicial Circuits
+        - parents: 
+          - 0ed17019889b146e48ae31b20d7b65adefd6f490
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Courts of Appeals Judicial Circuits - except the Federal Circuit
+            - codes: 
+              - "1002"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - U.S. Courts of Appeals Judicial Circuits - except the Federal Circuit
         - parents: 
           - 0ed17019889b146e48ae31b20d7b65adefd6f490
@@ -9976,6 +10096,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Supreme Court
+        - parents: 
+          - 0ed17019889b146e48ae31b20d7b65adefd6f490
+        - federalreporting.gov: !omap 
+            - names: 
+              - Supreme Court, except Justices
+            - codes: 
+              - "1059"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Supreme Court, except Justices
         - parents: 
           - 0ed17019889b146e48ae31b20d7b65adefd6f490
@@ -10223,6 +10358,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Council on Environmental Quality / Office of Environmental Quality
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - Council on Environmental Quality/Office of Environmental Quality
+            - codes: 
+              - "1119"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Council on Environmental Quality/Office of Environmental Quality
         - parents: 
           - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
@@ -10277,6 +10427,21 @@
 --- !omap 
 - uid: 8a77ab3cf606eb67e728ab7f2bdd5400d2d15e9a
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - OMB
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - OMB, except Director
+            - codes: 
+              - "1129"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -11893,6 +12058,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Office - Chief Financial Officer and Assistant Secretary for Administration
+          - Office - Chief Financial Officer & Assist. Sec'y for Admin.
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - Office - Chief Financial Officer & Assist. Sec'y for Admin.
+            - codes: 
+              - "1306"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Office - Chief Financial Officer & Assist. Sec'y for Admin.
         - parents: 
           - c648975ce4147c1bc81b7df6c7960c50c2766c38
@@ -12102,6 +12283,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Patent and Trademark Office / Under Secretary for Intellectual Property
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - Patent and Trademark Office/Under Secretary for Intellectual Property
+            - codes: 
+              - "1344"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Patent and Trademark Office/Under Secretary for Intellectual Property
         - parents: 
           - c648975ce4147c1bc81b7df6c7960c50c2766c38
@@ -12140,6 +12336,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Under Secretary for Export Administration / Bureau of Industry and Security
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - Under Secretary for Export Administration/Bureau of Industry and Security
+            - codes: 
+              - "1351"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Under Secretary for Export Administration/Bureau of Industry and Security
         - parents: 
           - c648975ce4147c1bc81b7df6c7960c50c2766c38
@@ -12175,6 +12386,21 @@
 --- !omap 
 - uid: e6df057a991ee8010ce96c240785ac90956d646c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Technology Administration / Under Secretary of Technology
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - Technology Administration/Under Secretary of Technology
+            - codes: 
+              - "1359"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -12308,6 +12534,21 @@
 --- !omap 
 - uid: 2377afd438448403771cf33ccd1a2ac2fc9e93e8
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Office of Policy, Management and Budget / Chief Financial Officer
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Office of Policy, Management and Budget/Chief Financial Officer
+            - codes: 
+              - "1406"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -12460,6 +12701,22 @@
 --- !omap 
 - uid: 930b2f09d2ca607312af5ac64f9b00828ef46741
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Executive Secretariat and Office of Regulatory Affairs
+          - Executive Secretariat & Office of Regulatory Affairs
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Executive Secretariat & Office of Regulatory Affairs
+            - codes: 
+              - "1414"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -13709,6 +13966,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Navy Secretariat / Staff Offices
+        - parents: 
+          - 5a1d98af9ea0cb67001fec226a572f5469f520a5
+        - federalreporting.gov: !omap 
+            - names: 
+              - Navy Secretariat/Staff Offices
+            - codes: 
+              - "1712"
+    - time: 2009-12-01 14:09:02 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Navy Secretariat/Staff Offices
         - parents: 
           - 5a1d98af9ea0cb67001fec226a572f5469f520a5
@@ -14619,6 +14891,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Office of the Under Secretary for Arms Control and International Security Affairs
+          - Office of the Under Sec'y for Arms Control & Internat'l Security Affairs
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Office of the Under Sec'y for Arms Control & Internat'l Security Affairs
+            - codes: 
+              - "1915"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Office of the Under Sec'y for Arms Control & Internat'l Security Affairs
         - parents: 
           - e7073a34b72a11fed241122e0996e5dc85503814
@@ -15091,6 +15379,22 @@
 --- !omap 
 - uid: 7bfbab461811e7a94e531810eef45c8890c18f60
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Oceans and International Environmental and Scientific Affairs
+          - Bureau of Oceans & Internat'l Environmental & Scientific Affairs
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of Oceans & Internat'l Environmental & Scientific Affairs
+            - codes: 
+              - "1948"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -15987,6 +16291,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Permanent Joint Board on Defense - U.S. and Canada
+          - Permanent Joint Board on Defense - U.S. & Canada
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Permanent Joint Board on Defense - U.S. & Canada
+            - codes: 
+              - 19DC
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Permanent Joint Board on Defense - U.S. & Canada
         - parents: 
           - e7073a34b72a11fed241122e0996e5dc85503814
@@ -16060,6 +16380,22 @@
 --- !omap 
 - uid: a4a0e8ab0924caa603f1ec2f3978cb34dd0ce22b
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - International Center -- Study of the Preservation and Restoration of Cultural Property
+          - Internat'l Cntr -- Study of the Preserv. & Restoration of Cultural Property
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Internat'l Cntr -- Study of the Preserv. & Restoration of Cultural Property
+            - codes: 
+              - 19EP
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -16611,6 +16947,22 @@
 --- !omap 
 - uid: 9b33d4aec96a321d5927577b4a8482aa1b191eb1
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Colombo Plan for Coop. Economic and Social Development in Asia and the Pacific
+          - Colombo Plan for Coop. Econ. & Social Develop. in Asia and the Pacific
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Colombo Plan for Coop. Econ. & Social Develop. in Asia and the Pacific
+            - codes: 
+              - 19RD
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -17598,6 +17950,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - U.S. Army Corps of Engineers
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Corps of Engineers, except civil program financing
+            - codes: 
+              - 21CE
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - U.S. Army Corps of Engineers, except civil program financing
         - parents: 
           - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
@@ -17652,6 +18019,22 @@
 --- !omap 
 - uid: 2046090f60c3da7ca9fc1fd58b2c3aa1f3aa7a80
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Immediate Office - Commander-In-Chief - U.S. Army Europe and 7th Army
+          - Immed. Office - Comm.-In-Chief - U.S. Army Europe & 7th Army
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - Immed. Office - Comm.-In-Chief - U.S. Army Europe & 7th Army
+            - codes: 
+              - 21E1
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -17842,6 +18225,21 @@
 --- !omap 
 - uid: b1010dfdcd059a6962f0269fcee16e2f3d36f747
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Army Network Enterprise Technology Command / 9th Army Signal Command
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Network Enterprise Technology Command/9th Army Signal Command
+            - codes: 
+              - 21G6
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -18280,6 +18678,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Joint Services and Activities Supported by the Office, Secretary of the Army
+          - Joint Services & Activities Supported by the Office, Sec'y of the Army
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - Joint Services & Activities Supported by the Office, Sec'y of the Army
+            - codes: 
+              - 21SJ
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Joint Services & Activities Supported by the Office, Sec'y of the Army
         - parents: 
           - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
@@ -18523,6 +18937,24 @@
   - !omap 
     - data: !omap 
         - names: 
+          - U.S. Army Tank-Automotive and Armament Command
+          - U.S. Army Tank-Auto. & Armament Command
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Tank-Auto. & Armament Command (TACOM)
+            - codes: 
+              - 21X7
+        - parentheticals: 
+          - TACOM
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - U.S. Army Tank-Auto. & Armament Command
         - parents: 
           - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
@@ -18575,6 +19007,22 @@
 --- !omap 
 - uid: bcf3b20b0f2cf8718b9406e3541a2d64e61fcbc6
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S.A. Simulation, Training and Instrumentation Command
+          - U.S.A. Simulation, Training & Instrumentation Command
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S.A. Simulation, Training & Instrumentation Command
+            - codes: 
+              - 21X9
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -18782,6 +19230,22 @@
 --- !omap 
 - uid: 01fd489ec1dbd101154ece6a9b691f0ba660d3d7
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Army Test, Measure, and Diagnostic Equipment Activity
+          - U.S. Army Test, Measure, & Diagnostic Equip. Activity
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Test, Measure, & Diagnostic Equip. Activity
+            - codes: 
+              - 21XT
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -19600,6 +20064,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Deputy Commissioner - Fin., Assessment and Management and Senior Fin. Exec.
+          - Dep. Comm. - Fin., Assessment & Mgmt. & Senior Fin. Exec.
+        - parents: 
+          - 1fe27d106be225f4b1150e6c68900a95edb221e4
+        - federalreporting.gov: !omap 
+            - names: 
+              - Dep. Comm. - Fin., Assessment & Mgmt. & Senior Fin. Exec.
+            - codes: 
+              - "2805"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Dep. Comm. - Fin., Assessment & Mgmt. & Senior Fin. Exec.
         - parents: 
           - 1fe27d106be225f4b1150e6c68900a95edb221e4
@@ -19616,6 +20096,22 @@
 --- !omap 
 - uid: 36e4133c1f5d93943e93d9881834393414b9ac87
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Deputy Comm. - Programs, Policy, Evaluation, and Communications
+          - Deputy Comm. - Programs, Policy, Evaluation, & Commun.
+        - parents: 
+          - 1fe27d106be225f4b1150e6c68900a95edb221e4
+        - federalreporting.gov: !omap 
+            - names: 
+              - Deputy Comm. - Programs, Policy, Evaluation, & Commun.
+            - codes: 
+              - "2806"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -19825,6 +20321,21 @@
 --- !omap 
 - uid: 3990a1bd6dc9a3f8462d4ba85dec2ee5a32a0f3e
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Smithsonian Institution
+        - parents: 
+          - aca256c598bab155fd4825fddc8e14b4ed4f246c
+        - federalreporting.gov: !omap 
+            - names: 
+              - Smithsonian Institution, except units admin under separate Bds of Trustees
+            - codes: 
+              - "3320"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -20493,6 +21004,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Immediate Office - Assistant Secretary for Public and Intergovernmental Affairs
+          - Immed. Office - Assist. Sec'y for Public & Intergov. Affairs
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+        - federalreporting.gov: !omap 
+            - names: 
+              - Immed. Office - Assist. Sec'y for Public & Intergov. Affairs
+            - codes: 
+              - "3636"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Immed. Office - Assist. Sec'y for Public & Intergov. Affairs
         - parents: 
           - 6e2e26a26df9bab6444c43fa965142af12218475
@@ -20569,6 +21096,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Deputy Assistant Secretary for Office of Resolution Management
+          - Deputy Assist. Sec'y for Office of Resolution Management
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+        - federalreporting.gov: !omap 
+            - names: 
+              - Deputy Assist. Sec'y for Office of Resolution Management
+            - codes: 
+              - "3641"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Deputy Assist. Sec'y for Office of Resolution Management
         - parents: 
           - 6e2e26a26df9bab6444c43fa965142af12218475
@@ -20585,6 +21128,22 @@
 --- !omap 
 - uid: eb3b41fd0592b3f3bb9e0e40c2e9d4f5bcf2ab64
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Deputy Assistant Secretary for Acquisition and Materiel Management
+          - Deputy Assist. Sec'y for Acquisition and Materiel Management
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+        - federalreporting.gov: !omap 
+            - names: 
+              - Deputy Assist. Sec'y for Acquisition and Materiel Management
+            - codes: 
+              - "3643"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -20702,6 +21261,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Immediate Office - Assistant Secretary - Human Resources and Administration
+          - Immed. Office - Assist. Sec'y - Human Resources & Admin.
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+        - federalreporting.gov: !omap 
+            - names: 
+              - Immed. Office - Assist. Sec'y - Human Resources & Admin.
+            - codes: 
+              - "3649"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Immed. Office - Assist. Sec'y - Human Resources & Admin.
         - parents: 
           - 6e2e26a26df9bab6444c43fa965142af12218475
@@ -20740,6 +21315,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Immediate Office of the Assistant Secretary - Information and Technology
+          - Immediate Office of the Assist. Sec. - Info. & Technology
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+        - federalreporting.gov: !omap 
+            - names: 
+              - Immediate Office of the Assist. Sec. - Info. & Technology
+            - codes: 
+              - "3651"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Immediate Office of the Assist. Sec. - Info. & Technology
         - parents: 
           - 6e2e26a26df9bab6444c43fa965142af12218475
@@ -20756,6 +21347,22 @@
 --- !omap 
 - uid: e183e63bf106b07da4178ad56fe1ce83c744d253
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Deputy Assistant Secretary For Information and Technology
+          - Deputy Assistant Sec. For Information & Technology
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+        - federalreporting.gov: !omap 
+            - names: 
+              - Deputy Assistant Sec. For Information & Technology
+            - codes: 
+              - "3652"
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -21671,6 +22278,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - International Union of Biochemistry and Molecular Biology
+          - International Union of Biochemistry & Molecular Biology
+        - parents: 
+          - a2f4db97f69bdb391146e7c2b2db2313a6fbee3f
+        - federalreporting.gov: !omap 
+            - names: 
+              - International Union of Biochemistry & Molecular Biology
+            - codes: 
+              - 49SK
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - International Union of Biochemistry & Molecular Biology
         - parents: 
           - a2f4db97f69bdb391146e7c2b2db2313a6fbee3f
@@ -22447,6 +23070,22 @@
 --- !omap 
 - uid: 8b5dca106f8a3db7c7a88fc79991cc95bdd6fc23
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Air Force C2 and Intelligence, Surveillance, and Reconnaissance
+          - Air Force C2 & Intelligence, Surveillance, & Reconnaissance
+        - parents: 
+          - 356b21d2d935317b3b3e00433e4284763bf3201b
+        - federalreporting.gov: !omap 
+            - names: 
+              - Air Force C2 & Intelligence, Surveillance, & Reconnaissance
+            - codes: 
+              - 571A
+    - time: 2009-12-01 14:09:03 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -24457,6 +25096,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Associate Deputy Secretary / Office of Intermodalism
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - Associate Deputy Secretary/ Office of Intermodalism
+            - codes: 
+              - "6902"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Associate Deputy Secretary/ Office of Intermodalism
         - parents: 
           - 28d7fc631f609c4949332413d6a7bec09bebd296
@@ -24530,6 +25184,22 @@
 --- !omap 
 - uid: b72f1b13329214b3489bf05fbe47164fe6fa4e23
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Assistant Secretary for Budget and Programs / Chief Financial Officer
+          - Assist. Secretary for Budget and Programs / Chief Financial Officer
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - Assist. Secretary for Budget and Programs/Chief Financial Officer
+            - codes: 
+              - "6906"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -24777,6 +25447,21 @@
 --- !omap 
 - uid: 54ab0f7f092a83a770bf4ca81f1e8e9ff8d43d77
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - OSDBU / Minority Business Resources Center
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - OSDBU/Minority Business Resources Center
+            - codes: 
+              - "6918"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -25953,6 +26638,22 @@
 --- !omap 
 - uid: 239b56dd9c022e40abc8b4901fb01c7c81878858
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Centers for Medicare and Medicaid Services
+          - Centers for Medicare & Medicaid Services
+        - parents: 
+          - 3febd0d4cae61077c3ebfb9bfce7974fb5f22763
+        - federalreporting.gov: !omap 
+            - names: 
+              - Centers for Medicare & Medicaid Services
+            - codes: 
+              - "7530"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -27886,6 +28587,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Casper Naval Pet and Oil Shale Reserves
+          - Casper Naval Pet & Oil Shale Reserves
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Casper Naval Pet & Oil Shale Reserves
+            - codes: 
+              - "8981"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Casper Naval Pet & Oil Shale Reserves
         - parents: 
           - 2948ba8841408755b961cbf42e3d75e04670cd44
@@ -27902,6 +28619,22 @@
 --- !omap 
 - uid: 6395a13f107e11ecff4d1dbbd6066377227effff
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Elk Hills Naval Pet and Oil Shale Reserves
+          - Elk Hills Naval Pet & Oil Shale Reserves
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Elk Hills Naval Pet & Oil Shale Reserves
+            - codes: 
+              - "8982"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -28433,6 +29166,21 @@
 --- !omap 
 - uid: 46e7700c296adb57283de788b21731c95fa29cdd
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Office of Nuclear Security / National Nuclear Security Administration
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Office of Nuclear Security/National Nuclear Security Administration
+            - codes: 
+              - 89NA
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -29308,6 +30056,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Immediate Office - Assistant Secretary for Special Education and Rehabilitation Services
+          - Immed. Office - Assist. Sec'y for Spec. Ed. & Rehab. Services
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Immed. Office - Assist. Sec'y for Spec. Ed. & Rehab. Services
+            - codes: 
+              - "9128"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Immed. Office - Assist. Sec'y for Spec. Ed. & Rehab. Services
         - parents: 
           - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
@@ -29343,6 +30107,22 @@
 --- !omap 
 - uid: 9e792ffa4230086cd7daf3263c4cede4a000b224
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Immediate Office of the Assistant Secretary for Postsecondary Education
+          - Immediate Office of the Assist. Sec'y for Postsecondary Education
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Immediate Office of the Assist. Sec'y for Postsecondary Education
+            - codes: 
+              - "9130"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -29552,6 +30332,22 @@
 --- !omap 
 - uid: e2868f2625450020b5500f5202fbaae523d3dc07
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Immediate Office - Assistant Secretary for Elementary and Secondary Education
+          - Immed. Office - Assist. Sec'y for Elementary & Secondary Ed.
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Immed. Office - Assist. Sec'y for Elementary & Secondary Ed.
+            - codes: 
+              - "9141"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -30463,6 +31259,22 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Morris K. Udall Scholarship and Excellence in National Environmental Policy Foundation
+          - Morris K. Udall Scholar. & Excellence in Nat'l Enviro. Policy Foundation
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Morris K. Udall Scholar. & Excellence in Nat'l Enviro. Policy Foundation
+            - codes: 
+              - "9545"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Morris K. Udall Scholar. & Excellence in Nat'l Enviro. Policy Foundation
         - parents: []
 
@@ -31067,6 +31879,21 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Army / Air Force Exchange Service
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Army/Air Force Exchange Service
+            - codes: 
+              - "9736"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Army/Air Force Exchange Service
         - parents: 
           - cf0d1875d98fac9dce5b9cac8850999af4930292
@@ -31102,6 +31929,21 @@
 --- !omap 
 - uid: ee5c71ea266f6900d901607c68fa07df5bd186a9
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Prisoner of War / Missing Personnel Office
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Prisoner of War/Missing Personnel Office
+            - codes: 
+              - "9758"
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -31634,6 +32476,21 @@
 --- !omap 
 - uid: af80666fe6b1fcd184cf77c94fea13490a112105
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Security Agency / Central Security Service
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Security Agency/Central Security Service
+            - codes: 
+              - 97CG
+    - time: 2009-12-01 14:09:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0005-standardize-names.rb
   - !omap 
     - data: !omap 
         - names: 
