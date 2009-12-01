@@ -74,6 +74,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Broadcasting Board of Governors
+        - urls: 
+          - http://www.bbg.gov/
+        - parentheticals: 
+          - Voice of America, Radio|TV Marti and more
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Broadcasting Board of Governors (Voice of America, Radio|TV Marti and more)
         - urls: 
           - http://www.bbg.gov/
@@ -85,6 +97,18 @@
 --- !omap 
 - uid: bc2101ada05e83e975e2ba641969bf068fc005ee
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Alcohol and Tobacco Tax and Trade
+        - urls: 
+          - http://www.ttb.gov/
+        - parentheticals: 
+          - Treasury
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -102,6 +126,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Bureau of Alcohol, Tobacco, Firearms, and Explosives
+        - urls: 
+          - http://www.atf.gov
+        - parentheticals: 
+          - Justice
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Bureau of Alcohol, Tobacco, Firearms, and Explosives (Justice)
         - urls: 
           - http://www.atf.gov
@@ -116,6 +152,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Bureau of Citizenship and Immigration Services
+        - urls: 
+          - http://www.uscis.gov/portal/site/uscis
+        - parentheticals: 
+          - DHS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Bureau of Citizenship and Immigration Services (DHS)
         - urls: 
           - http://www.uscis.gov/portal/site/uscis
@@ -127,6 +175,18 @@
 --- !omap 
 - uid: b72d717b49688b748f8a815b3077348194efe2fc
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Economic Analysis
+        - urls: 
+          - http://www.bea.gov/
+        - parentheticals: 
+          - BEA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -155,6 +215,18 @@
 --- !omap 
 - uid: c51abb8fb9b6bed27a32248b4be26d6a579c5a43
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Indian Affairs
+        - urls: 
+          - http://www.doi.gov/bureau-indian-affairs.html
+        - parentheticals: 
+          - BIA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -237,6 +309,18 @@
 --- !omap 
 - uid: a599590c359a433c9a813f86ffaa589bcad0bf9b
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Land Management
+        - urls: 
+          - http://www.blm.gov/nhp/index.htm
+        - parentheticals: 
+          - BLM
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -394,6 +478,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Centers for Disease Control and Prevention
+        - urls: 
+          - http://www.cdc.gov/
+        - parentheticals: 
+          - CDC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Centers for Disease Control and Prevention (CDC)
         - urls: 
           - http://www.cdc.gov/
@@ -434,6 +530,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Central Command
+        - urls: 
+          - http://www.centcom.mil/
+        - parentheticals: 
+          - CENTCOM
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Central Command (CENTCOM)
         - urls: 
           - http://www.centcom.mil/
@@ -445,6 +553,18 @@
 --- !omap 
 - uid: 7ab599789ccfdd4d1e618559320db9c2d40e2f67
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Central Intelligence Agency
+        - urls: 
+          - http://www.cia.gov/
+        - parentheticals: 
+          - CIA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -600,6 +720,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Coalition Provisional Authority
+        - urls: 
+          - http://www.cpa-iraq.org/
+        - parentheticals: 
+          - in Iraq
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Coalition Provisional Authority (in Iraq)
         - urls: 
           - http://www.cpa-iraq.org/
@@ -712,6 +844,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Commission on Security and Cooperation in Europe
+        - urls: 
+          - http://www.csce.gov
+        - parentheticals: 
+          - Helsinki Commission
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Commission on Security and Cooperation in Europe (Helsinki Commission)
         - urls: 
           - http://www.csce.gov
@@ -796,6 +940,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Community Oriented Policing Services
+        - urls: 
+          - http://www.cops.usdoj.gov/
+        - parentheticals: 
+          - COPS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Community Oriented Policing Services (COPS)
         - urls: 
           - http://www.cops.usdoj.gov/
@@ -838,6 +994,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Computer Emergency Readiness Team
+        - urls: 
+          - http://www.us-cert.gov/
+        - parentheticals: 
+          - US CERT
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Computer Emergency Readiness Team (US CERT)
         - urls: 
           - http://www.us-cert.gov/
@@ -863,6 +1031,18 @@
 --- !omap 
 - uid: 38d1c07dbf95cb2d903694e482891ad1dd28aa79
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Congressional Budget Office
+        - urls: 
+          - http://www.cbo.gov/
+        - parentheticals: 
+          - CBO
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -933,6 +1113,18 @@
 --- !omap 
 - uid: f06c25aa574154b56e4fba5b837ee0c003061bf5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Consumer Product Safety Commission
+        - urls: 
+          - http://www.cpsc.gov/
+        - parentheticals: 
+          - CPSC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1174,6 +1366,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Defense Advanced Research Projects Agency
+        - urls: 
+          - http://www.darpa.mil/
+        - parentheticals: 
+          - DARPA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Defense Advanced Research Projects Agency (DARPA)
         - urls: 
           - http://www.darpa.mil/
@@ -1199,6 +1403,18 @@
 --- !omap 
 - uid: 344bc001c656e59239bc993bae7c281c2e87af5c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Contract Audit Agency
+        - urls: 
+          - http://www.dcaa.mil/
+        - parentheticals: 
+          - DCAA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1230,6 +1446,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Defense Department
+        - urls: 
+          - http://www.defenselink.mil/
+        - parentheticals: 
+          - DOD
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Defense Department (DOD)
         - urls: 
           - http://www.defenselink.mil/
@@ -1258,6 +1486,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Defense Finance and Accounting Service
+        - urls: 
+          - http://www.dod.mil/dfas/index.html
+        - parentheticals: 
+          - DFAS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Defense Finance and Accounting Service (DFAS)
         - urls: 
           - http://www.dod.mil/dfas/index.html
@@ -1272,6 +1512,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Defense Information Systems Agency
+        - urls: 
+          - http://www.disa.mil/
+        - parentheticals: 
+          - DISA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Defense Information Systems Agency (DISA)
         - urls: 
           - http://www.disa.mil/
@@ -1283,6 +1535,18 @@
 --- !omap 
 - uid: b46d49cd046dc9497fe7147d7f985c1fd5bb8529
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Intelligence Agency
+        - urls: 
+          - http://www.dia.mil
+        - parentheticals: 
+          - DIA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1314,6 +1578,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Defense Logistics Agency
+        - urls: 
+          - http://www.dla.mil
+        - parentheticals: 
+          - DLA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Defense Logistics Agency (DLA)
         - urls: 
           - http://www.dla.mil
@@ -1342,6 +1618,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Defense Security Cooperation Agency
+        - urls: 
+          - http://www.dsca.mil/
+        - parentheticals: 
+          - DSCA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Defense Security Cooperation Agency (DSCA)
         - urls: 
           - http://www.dsca.mil/
@@ -1353,6 +1641,18 @@
 --- !omap 
 - uid: 9d1b681ab456c3d9eb97d4a41f67ca242e70fd41
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Security Service
+        - urls: 
+          - http://www.dss.mil/
+        - parentheticals: 
+          - DSS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1381,6 +1681,18 @@
 --- !omap 
 - uid: 55fa0b631691cadee50b8daad68422f55329a07b
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Threat Reduction Agency
+        - urls: 
+          - http://www.dtra.mil/
+        - parentheticals: 
+          - DTRA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1454,6 +1766,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Agriculture
+        - urls: 
+          - http://www.usda.gov
+        - parentheticals: 
+          - USDA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Agriculture (USDA)
         - urls: 
           - http://www.usda.gov
@@ -1468,6 +1792,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Commerce
+        - urls: 
+          - http://www.commerce.gov/
+        - parentheticals: 
+          - DOC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Commerce (DOC)
         - urls: 
           - http://www.commerce.gov/
@@ -1479,6 +1815,18 @@
 --- !omap 
 - uid: fe018346ff7c6306b0e43f60abcd3b29625f358f
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Defense
+        - urls: 
+          - http://www.defenselink.mil/
+        - parentheticals: 
+          - DOD
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1510,6 +1858,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Education
+        - urls: 
+          - http://www.ed.gov/
+        - parentheticals: 
+          - ED
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Education (ED)
         - urls: 
           - http://www.ed.gov/
@@ -1521,6 +1881,18 @@
 --- !omap 
 - uid: 3d855ab4c2c7db902d6bbe0e30419631b13a5d38
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Energy
+        - urls: 
+          - http://www.energy.gov/
+        - parentheticals: 
+          - DOE
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1538,6 +1910,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Health and Human Services
+        - urls: 
+          - http://www.hhs.gov/
+        - parentheticals: 
+          - HHS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Health and Human Services (HHS)
         - urls: 
           - http://www.hhs.gov/
@@ -1549,6 +1933,18 @@
 --- !omap 
 - uid: 13bb33964f307795eb021a2b4f9d8ff93ccb5180
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Homeland Security
+        - urls: 
+          - http://www.dhs.gov
+        - parentheticals: 
+          - DHS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1566,6 +1962,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Housing and Urban Development
+        - urls: 
+          - http://www.hud.gov/
+        - parentheticals: 
+          - HUD
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Housing and Urban Development (HUD)
         - urls: 
           - http://www.hud.gov/
@@ -1577,6 +1985,18 @@
 --- !omap 
 - uid: dc0c6edf9ef59ffc6304cfb1a8a17ce51a092493
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Justice
+        - urls: 
+          - http://www.usdoj.gov/
+        - parentheticals: 
+          - DOJ
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1594,6 +2014,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Labor
+        - urls: 
+          - http://www.dol.gov/
+        - parentheticals: 
+          - DOL
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Labor (DOL)
         - urls: 
           - http://www.dol.gov/
@@ -1605,6 +2037,18 @@
 --- !omap 
 - uid: 43c58fd14aa935dbbb5c8252b1407dfe179cb737
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of State
+        - urls: 
+          - http://www.state.gov/
+        - parentheticals: 
+          - DOS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1622,6 +2066,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Transportation
+        - urls: 
+          - http://www.dot.gov/
+        - parentheticals: 
+          - DOT
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Transportation (DOT)
         - urls: 
           - http://www.dot.gov/
@@ -1636,6 +2092,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Department of Veterans Affairs
+        - urls: 
+          - http://www.va.gov/
+        - parentheticals: 
+          - VA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Department of Veterans Affairs (VA)
         - urls: 
           - http://www.va.gov/
@@ -1647,6 +2115,18 @@
 --- !omap 
 - uid: 572690ed6e58ee796c5373d590129f91fda8b713
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of the Interior
+        - urls: 
+          - http://www.doi.gov/
+        - parentheticals: 
+          - DOI
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1734,6 +2214,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Drug Enforcement Administration
+        - urls: 
+          - http://www.usdoj.gov/dea/
+        - parentheticals: 
+          - DEA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Drug Enforcement Administration (DEA)
         - urls: 
           - http://www.usdoj.gov/dea/
@@ -1804,6 +2296,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Economic, Business and Agricultural Affairs
+        - urls: 
+          - http://www.state.gov/e/
+        - parentheticals: 
+          - State Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Economic, Business and Agricultural Affairs (State Department)
         - urls: 
           - http://www.state.gov/e/
@@ -1829,6 +2333,18 @@
 --- !omap 
 - uid: 1ed8e7047d722e814033f58953d5ecbcd78046d9
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Education Department
+        - urls: 
+          - http://www.ed.gov/
+        - parentheticals: 
+          - ED
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1914,6 +2430,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Employment and Training Administration
+        - urls: 
+          - http://www.doleta.gov/
+        - parentheticals: 
+          - Labor Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Employment and Training Administration (Labor Department)
         - urls: 
           - http://www.doleta.gov/
@@ -1939,6 +2467,18 @@
 --- !omap 
 - uid: 99285f9553ce1acacfcfbdbcb4ed7acdde5aafa5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Energy Department
+        - urls: 
+          - http://www.energy.gov/
+        - parentheticals: 
+          - DOE
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2012,6 +2552,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Environmental Management
+        - urls: 
+          - http://www.em.doe.gov/
+        - parentheticals: 
+          - Energy Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Environmental Management (Energy Department)
         - urls: 
           - http://www.em.doe.gov/
@@ -2026,6 +2578,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Environmental Protection Agency
+        - urls: 
+          - http://www.epa.gov/
+        - parentheticals: 
+          - EPA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Environmental Protection Agency (EPA)
         - urls: 
           - http://www.epa.gov/
@@ -2037,6 +2601,18 @@
 --- !omap 
 - uid: 9c61c548c9fa54cc036704d904df34fee0f898fe
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Equal Employment Opportunity Commission
+        - urls: 
+          - http://www.eeoc.gov/
+        - parentheticals: 
+          - EEOC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2079,6 +2655,18 @@
 --- !omap 
 - uid: 6ca06fc705671cbb2007eec82ab10bafa0c66a32
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Export Administration
+        - urls: 
+          - http://www.bis.doc.gov/
+        - parentheticals: 
+          - now the Bureau of Industry and Security
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2166,6 +2754,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Federal Aviation Administration
+        - urls: 
+          - http://www.faa.gov/
+        - parentheticals: 
+          - FAA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Federal Aviation Administration (FAA)
         - urls: 
           - http://www.faa.gov/
@@ -2177,6 +2777,18 @@
 --- !omap 
 - uid: 5eb763835a65abd5d5b35367bb1869c35502b63e
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Bureau of Investigation
+        - urls: 
+          - http://www.fbi.gov/
+        - parentheticals: 
+          - FBI
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2208,6 +2820,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Federal Citizen Information Center
+        - urls: 
+          - http://www.pueblo.gsa.gov/
+        - parentheticals: 
+          - FCIC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Federal Citizen Information Center (FCIC)
         - urls: 
           - http://www.pueblo.gsa.gov/
@@ -2219,6 +2843,18 @@
 --- !omap 
 - uid: ce074f16baa547aa797b33ebc90db5134cbbeacb
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Communications Commission
+        - urls: 
+          - http://www.fcc.gov/
+        - parentheticals: 
+          - FCC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2250,6 +2886,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Federal Deposit Insurance Corporation
+        - urls: 
+          - http://www.fdic.gov/
+        - parentheticals: 
+          - FDIC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Federal Deposit Insurance Corporation (FDIC)
         - urls: 
           - http://www.fdic.gov/
@@ -2275,6 +2923,18 @@
 --- !omap 
 - uid: 4130a97427d2d5c6b9fe5028d1221c99053cecd5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Emergency Management Agency
+        - urls: 
+          - http://www.fema.gov/
+        - parentheticals: 
+          - FEMA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2628,6 +3288,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Federal Trade Commission
+        - urls: 
+          - http://www.ftc.gov/
+        - parentheticals: 
+          - FTC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Federal Trade Commission (FTC)
         - urls: 
           - http://www.ftc.gov/
@@ -2667,6 +3339,18 @@
 --- !omap 
 - uid: 7a2daaf2f46b74c6baa54f64200f6bc1c65f1003
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Financial Management Service
+        - urls: 
+          - http://www.fms.treas.gov/
+        - parentheticals: 
+          - Treasury Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2737,6 +3421,18 @@
 --- !omap 
 - uid: 86897a480b21e9cc617bddd70f96313c13891f1f
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Food and Drug Administration
+        - urls: 
+          - http://www.fda.gov/
+        - parentheticals: 
+          - FDA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2852,6 +3548,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - General Services Administration
+        - urls: 
+          - http://www.gsa.gov/
+        - parentheticals: 
+          - GSA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - General Services Administration (GSA)
         - urls: 
           - http://www.gsa.gov/
@@ -2863,6 +3571,18 @@
 --- !omap 
 - uid: 550507b9462ccd5ae8ba6ccba4dcb09d0f36c93d
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Geological Survey
+        - urls: 
+          - http://www.usgs.gov/
+        - parentheticals: 
+          - USGS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2908,6 +3628,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Global Affairs
+        - urls: 
+          - http://www.state.gov/g/
+        - parentheticals: 
+          - State Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Global Affairs (State Department)
         - urls: 
           - http://www.state.gov/g/
@@ -2919,6 +3651,18 @@
 --- !omap 
 - uid: 63e8497564d937461863be5430753025e985f8f2
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Government Accountability Office
+        - urls: 
+          - http://www.gao.gov/
+        - parentheticals: 
+          - GAO
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2947,6 +3691,18 @@
 --- !omap 
 - uid: 0416be7fbcdc553a9a22d02a193894bcc9383f65
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Government Printing Office
+        - urls: 
+          - http://www.gpo.gov/
+        - parentheticals: 
+          - GPO
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3048,6 +3804,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Health and Human Services Department
+        - urls: 
+          - http://www.hhs.gov/
+        - parentheticals: 
+          - HHS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Health and Human Services Department (HHS)
         - urls: 
           - http://www.hhs.gov/
@@ -3059,6 +3827,18 @@
 --- !omap 
 - uid: ada891547ba5016d598085cb3d1424e93041d456
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Helsinki Commission
+        - urls: 
+          - http://www.csce.gov
+        - parentheticals: 
+          - Commission on Security and Cooperation in Europe
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3087,6 +3867,18 @@
 --- !omap 
 - uid: 2a46eb0b700e3f365f93e4f0a8682988a576b297
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Homeland Security Department
+        - urls: 
+          - http://www.dhs.gov
+        - parentheticals: 
+          - DHS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3202,6 +3994,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Housing Office
+        - urls: 
+          - http://www.hud.gov/offices/hsg/index.cfm
+        - parentheticals: 
+          - HUD
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Housing Office (HUD)
         - urls: 
           - http://www.hud.gov/offices/hsg/index.cfm
@@ -3213,6 +4017,18 @@
 --- !omap 
 - uid: b77646a9203cc98b07ca3facae09d6926b7f05fb
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Housing and Urban Development Department
+        - urls: 
+          - http://www.hud.gov/
+        - parentheticals: 
+          - HUD
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3311,6 +4127,18 @@
 --- !omap 
 - uid: 12a6b9e01445c849d4a9165776f6abc2211a1ee8
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Immigration and Naturalization Service
+        - urls: 
+          - http://www.uscis.gov/portal/site/uscis
+        - parentheticals: 
+          - Bureau of Citizenship and Immigration Services
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3564,6 +4392,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Internal Revenue Service
+        - urls: 
+          - http://www.irs.gov/
+        - parentheticals: 
+          - IRS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Internal Revenue Service (IRS)
         - urls: 
           - http://www.irs.gov/
@@ -3575,6 +4415,18 @@
 --- !omap 
 - uid: 4b7784d7a41c7c1b3f6e354ba9cc158993302f1c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - International Broadcasting Bureau
+        - urls: 
+          - http://www.ibb.gov/
+        - parentheticals: 
+          - IBB
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3603,6 +4455,18 @@
 --- !omap 
 - uid: 3619441fa81b78571e43972aa91212bd98842064
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - International Trade Administration
+        - urls: 
+          - http://trade.gov/index.asp
+        - parentheticals: 
+          - ITA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3844,6 +4708,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Justice Programs Office
+        - urls: 
+          - http://www.ojp.usdoj.gov/
+        - parentheticals: 
+          - Juvenile Justice, Victims of Crime, Violence Against Women and more
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Justice Programs Office (Juvenile Justice, Victims of Crime, Violence Against Women and more)
         - urls: 
           - http://www.ojp.usdoj.gov/
@@ -3928,6 +4804,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Labor Department
+        - urls: 
+          - http://www.dol.gov/
+        - parentheticals: 
+          - DOL
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Labor Department (DOL)
         - urls: 
           - http://www.dol.gov/
@@ -3967,6 +4855,18 @@
 --- !omap 
 - uid: 0b669a6df3c37bdc36fa93f39090d0c933841843
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Lead Hazard Control
+        - urls: 
+          - http://www.hud.gov/offices/lead/
+        - parentheticals: 
+          - Housing and Urban Development Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4121,6 +5021,18 @@
 --- !omap 
 - uid: 942d4b21e52ed83983f39cb70c04ac434796a839
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Marketing and Regulatory Programs
+        - urls: 
+          - http://www.aphis.usda.gov/mrpbs/
+        - parentheticals: 
+          - Agriculture Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4376,6 +5288,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Mint
+        - urls: 
+          - http://www.usmint.gov/index.cfm?flash=yes
+        - parentheticals: 
+          - Treasury Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Mint (Treasury Department)
         - urls: 
           - http://www.usmint.gov/index.cfm?flash=yes
@@ -4387,6 +5311,18 @@
 --- !omap 
 - uid: af0257acc6368dd97e78c4e65cc35a07443e862f
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Missile Defense Agency
+        - urls: 
+          - http://www.mda.mil/mdalink/html/mdalink.html
+        - parentheticals: 
+          - MDA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4544,6 +5480,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - National Aeronautics and Space Administration
+        - urls: 
+          - http://www.nasa.gov/
+        - parentheticals: 
+          - NASA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - National Aeronautics and Space Administration (NASA)
         - urls: 
           - http://www.nasa.gov/
@@ -4569,6 +5517,18 @@
 --- !omap 
 - uid: 1250756ac17837583ddceed2b4386f413c3a1062
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Archives and Records Administration
+        - urls: 
+          - http://www.archives.gov/index.html
+        - parentheticals: 
+          - NARA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4611,6 +5571,18 @@
 --- !omap 
 - uid: 54eabd6021b03c161568c304fc008ca31d576ad2
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Cemetery Administration
+        - urls: 
+          - http://www.cem.va.gov/
+        - parentheticals: 
+          - Veterans Affairs Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4852,6 +5824,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - National Institute of Standards and Technology
+        - urls: 
+          - http://www.nist.gov/
+        - parentheticals: 
+          - NIST
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - National Institute of Standards and Technology (NIST)
         - urls: 
           - http://www.nist.gov/
@@ -4863,6 +5847,18 @@
 --- !omap 
 - uid: cdcf62919b12ef3883c8ac8b17d72efb6c2d4038
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Institutes of Health
+        - urls: 
+          - http://www.nih.gov/
+        - parentheticals: 
+          - NIH
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4905,6 +5901,18 @@
 --- !omap 
 - uid: d85a6a91da4ea578f91eb7453415044dd571221d
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Laboratories
+        - urls: 
+          - http://www.energy.gov/organization/labs-techcenters.htm
+        - parentheticals: 
+          - Energy Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4978,6 +5986,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - National Oceanic and Atmospheric Administration
+        - urls: 
+          - http://www.noaa.gov/
+        - parentheticals: 
+          - NOAA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - National Oceanic and Atmospheric Administration (NOAA)
         - urls: 
           - http://www.noaa.gov/
@@ -5020,6 +6040,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - National Railroad Passenger Corporation
+        - urls: 
+          - http://www.amtrak.com/
+        - parentheticals: 
+          - AMTRAK
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - National Railroad Passenger Corporation (AMTRAK)
         - urls: 
           - http://www.amtrak.com/
@@ -5059,6 +6091,18 @@
 --- !omap 
 - uid: c65d646c8ef63d35d1077d33958e740b7b28fab2
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Security Agency
+        - urls: 
+          - http://www.nsa.gov/
+        - parentheticals: 
+          - NSA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5496,6 +6540,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Occupational Safety & Health Administration
+        - urls: 
+          - http://www.osha.gov/
+        - parentheticals: 
+          - OSHA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Occupational Safety & Health Administration (OSHA)
         - urls: 
           - http://www.osha.gov/
@@ -5566,6 +6622,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Office of Management and Budget
+        - urls: 
+          - http://www.whitehouse.gov/omb/
+        - parentheticals: 
+          - OMB
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Office of Management and Budget (OMB)
         - urls: 
           - http://www.whitehouse.gov/omb/
@@ -5577,6 +6645,18 @@
 --- !omap 
 - uid: e356e06b00d909c9870e55522545d7bb158bd1ef
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Office of National Drug Control Policy
+        - urls: 
+          - http://www.whitehousedrugpolicy.gov/index.html
+        - parentheticals: 
+          - ONDCP
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5818,6 +6898,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Parole Commission
+        - urls: 
+          - http://www.usdoj.gov/uspc/
+        - parentheticals: 
+          - Justice Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Parole Commission (Justice Department)
         - urls: 
           - http://www.usdoj.gov/uspc/
@@ -5916,6 +7008,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Pension and Welfare Benefits Administration
+        - urls: 
+          - http://www.dol.gov/ebsa/
+        - parentheticals: 
+          - now the Employee Benefits Security Administration
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Pension and Welfare Benefits Administration (now the Employee Benefits Security Administration)
         - urls: 
           - http://www.dol.gov/ebsa/
@@ -5958,6 +7062,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Policy Development and Research
+        - urls: 
+          - http://www.huduser.org
+        - parentheticals: 
+          - Housing and Urban Development Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Policy Development and Research (Housing and Urban Development Department)
         - urls: 
           - http://www.huduser.org
@@ -5969,6 +7085,18 @@
 --- !omap 
 - uid: bb2f0e6a54da7f99eb998f8c8e4fd101cf396523
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Political Affairs
+        - urls: 
+          - http://www.state.gov/p/
+        - parentheticals: 
+          - State Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5997,6 +7125,18 @@
 --- !omap 
 - uid: 266d539e89245ba8fcb68eea875639bfb0705635
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Postal Service
+        - urls: 
+          - http://www.usps.gov/
+        - parentheticals: 
+          - USPS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6084,6 +7224,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Public Diplomacy and Public Affairs
+        - urls: 
+          - http://www.state.gov/r/
+        - parentheticals: 
+          - State Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Public Diplomacy and Public Affairs (State Department)
         - urls: 
           - http://www.state.gov/r/
@@ -6126,6 +7278,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Radio Free Asia
+        - urls: 
+          - http://www.rfa.org/
+        - parentheticals: 
+          - RFA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Radio Free Asia (RFA)
         - urls: 
           - http://www.rfa.org/
@@ -6140,6 +7304,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Radio Free Europe/Radio Liberty
+        - urls: 
+          - http://www.rferl.org/
+        - parentheticals: 
+          - RFE/RL
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Radio Free Europe/Radio Liberty (RFE/RL)
         - urls: 
           - http://www.rferl.org/
@@ -6151,6 +7327,18 @@
 --- !omap 
 - uid: 51b6fa042a168f36f9ffb2b855cfca2492b04a5a
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Radio and TV Marti
+        - urls: 
+          - http://www.martinoticias.com/
+        - parentheticals: 
+          - "Espa\xC3\xB1ol"
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6224,6 +7412,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Rehabilitation Services Administration
+        - urls: 
+          - http://www.ed.gov/about/offices/list/osers/rsa/index.html?exp=0
+        - parentheticals: 
+          - Education Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Rehabilitation Services Administration (Education Department)
         - urls: 
           - http://www.ed.gov/about/offices/list/osers/rsa/index.html?exp=0
@@ -6238,6 +7438,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Research and Innovative Technology Administration
+        - urls: 
+          - http://www.rita.dot.gov/
+        - parentheticals: 
+          - Transportation Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Research and Innovative Technology Administration (Transportation Department)
         - urls: 
           - http://www.rita.dot.gov/
@@ -6249,6 +7461,18 @@
 --- !omap 
 - uid: 6688ae5f8df1f968920cfd12b399bb8c0cd5cf85
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Research, Education and Economics
+        - urls: 
+          - http://www.csrees.usda.gov/ree/
+        - parentheticals: 
+          - Agriculture Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6291,6 +7515,18 @@
 --- !omap 
 - uid: 647e4a47a5105b1a102fc0b3ec9fe0ed13c4375b
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Risk Management Agency
+        - urls: 
+          - http://www.rma.usda.gov/
+        - parentheticals: 
+          - Agriculture Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6378,6 +7614,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Science Office
+        - urls: 
+          - http://www.sc.doe.gov/
+        - parentheticals: 
+          - Energy Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Science Office (Energy Department)
         - urls: 
           - http://www.sc.doe.gov/
@@ -6403,6 +7651,18 @@
 --- !omap 
 - uid: a451ed58581bd349da85436d5f7d9551f827c581
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Securities and Exchange Commission
+        - urls: 
+          - http://www.sec.gov/
+        - parentheticals: 
+          - SEC
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6490,6 +7750,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Small Business Administration
+        - urls: 
+          - http://www.sba.gov/
+        - parentheticals: 
+          - SBA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Small Business Administration (SBA)
         - urls: 
           - http://www.sba.gov/
@@ -6515,6 +7787,18 @@
 --- !omap 
 - uid: e2f4fd6de850a245dba85552bbda11cff58b9fe7
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Social Security Administration
+        - urls: 
+          - http://www.ssa.gov/
+        - parentheticals: 
+          - SSA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6980,6 +8264,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Transportation Department
+        - urls: 
+          - http://www.dot.gov/
+        - parentheticals: 
+          - DOT
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Transportation Department (DOT)
         - urls: 
           - http://www.dot.gov/
@@ -7036,6 +8332,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Trustee Program
+        - urls: 
+          - http://www.usdoj.gov/ust/
+        - parentheticals: 
+          - Justice Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Trustee Program (Justice Department)
         - urls: 
           - http://www.usdoj.gov/ust/
@@ -7047,6 +8355,18 @@
 --- !omap 
 - uid: 7050d23ae49e08364f32bbfea72e2225310ccb5c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Border Patrol
+        - urls: 
+          - http://www.cbp.gov/
+        - parentheticals: 
+          - now Customs and Border Protection
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7176,6 +8496,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - U.S. National Central Bureau - Interpol
+        - urls: 
+          - http://www.usdoj.gov/usncb/
+        - parentheticals: 
+          - Justice Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - U.S. National Central Bureau - Interpol (Justice Department)
         - urls: 
           - http://www.usdoj.gov/usncb/
@@ -7187,6 +8519,18 @@
 --- !omap 
 - uid: 435c41fa1a5c11ec406b19f018532455bce9b481
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Postal Service
+        - urls: 
+          - http://www.usps.com/
+        - parentheticals: 
+          - USPS
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7257,6 +8601,18 @@
 --- !omap 
 - uid: 97761a0f02984f8e904fca9b1cb7257626744043
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Unified Combatant Commands
+        - urls: 
+          - http://www.defenselink.mil/specials/unifiedcommand/
+        - parentheticals: 
+          - Defense Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7341,6 +8697,18 @@
 --- !omap 
 - uid: 1f2065c7d2abe8adaa8e68c33341879fbc42ab70
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Veterans Affairs Department
+        - urls: 
+          - http://www.va.gov/
+        - parentheticals: 
+          - VA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7470,6 +8838,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Voice of America
+        - urls: 
+          - http://www.voa.gov/
+        - parentheticals: 
+          - VOA
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Voice of America (VOA)
         - urls: 
           - http://www.voa.gov/
@@ -7537,6 +8917,18 @@
 --- !omap 
 - uid: 06ef0a7d96bff45d9a839baa2636cc20a80ee0c5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - West Point
+        - urls: 
+          - http://www.usma.edu/
+        - parentheticals: 
+          - Army
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7677,6 +9069,18 @@
 --- !omap 
 - uid: 6ee52746d70e75962b1d272b5202d7ad4071810b
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Women's Bureau
+        - urls: 
+          - http://www.dol.gov/wb/
+        - parentheticals: 
+          - Labor Department
+    - time: 2009-12-01 14:04:51 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -9234,6 +10638,23 @@
 --- !omap 
 - uid: 6315957bbf74b5e934f9fe8adc830e728167dba6
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - International Bank for Reconstruction and Development
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - International Bank for Reconstruction and Development (World Bank)
+            - codes: 
+              - 11DR
+        - parentheticals: 
+          - World Bank
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -11156,6 +12577,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Fish and Wildlife and Parks
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Fish and Wildlife and Parks (Assistant Secretary)
+            - codes: 
+              - 142F
+        - parentheticals: 
+          - Assistant Secretary
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Fish and Wildlife and Parks (Assistant Secretary)
         - parents: 
           - 551e9728320118ffa3741a00f2a29574f88a5c54
@@ -11175,6 +12613,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Land and Minerals Management
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Land and Minerals Management (Assistant Secretary)
+            - codes: 
+              - 142L
+        - parentheticals: 
+          - Assistant Secretary
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Land and Minerals Management (Assistant Secretary)
         - parents: 
           - 551e9728320118ffa3741a00f2a29574f88a5c54
@@ -11191,6 +12646,23 @@
 --- !omap 
 - uid: eb15d00a8ed64acee6b90131038f3eef7d762a6c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Water and Science
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Water and Science (Assistant Secretary)
+            - codes: 
+              - 142W
+        - parentheticals: 
+          - Assistant Secretary
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -11305,6 +12777,23 @@
 --- !omap 
 - uid: c6907cbf81062df09cfdb5d585c3c6b223d2e034
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Indian Affairs
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Indian Affairs (Assistant Secretary)
+            - codes: 
+              - "1450"
+        - parentheticals: 
+          - Assistant Secretary
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -12692,6 +14181,23 @@
 --- !omap 
 - uid: 29801ed33543bc3db33dc09ec4967d79b06f6d1c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Special Operations Command
+        - parents: 
+          - 5a1d98af9ea0cb67001fec226a572f5469f520a5
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Special Operations Command (Navy)
+            - codes: 
+              - 17ZS
+        - parentheticals: 
+          - Navy
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -15469,6 +16975,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - United Nations
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - United Nations (and special programs)
+            - codes: 
+              - 19UN
+        - parentheticals: 
+          - and special programs
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - United Nations (and special programs)
         - parents: 
           - e7073a34b72a11fed241122e0996e5dc85503814
@@ -15884,6 +17407,23 @@
 --- !omap 
 - uid: cf786dd9f3201ec27cde4874cb8f63e4ec918c62
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - International Criminal Police Organization
+        - parents: 
+          - 52ef6bf47eb0df7fb8e7b931fce72666c8b2a394
+        - federalreporting.gov: !omap 
+            - names: 
+              - International Criminal Police Organization (INTERPOL)
+            - codes: 
+              - 20LP
+        - parentheticals: 
+          - INTERPOL
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -16533,6 +18073,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Army National Guard Units
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - Army National Guard Units (Title 32)
+            - codes: 
+              - 21NG
+        - parentheticals: 
+          - Title 32
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Army National Guard Units (Title 32)
         - parents: 
           - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
@@ -16742,6 +18299,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - U.S. Special Operation Command
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Special Operation Command (Army)
+            - codes: 
+              - 21SP
+        - parentheticals: 
+          - Army
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - U.S. Special Operation Command (Army)
         - parents: 
           - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
@@ -16815,6 +18389,23 @@
 --- !omap 
 - uid: e75492f08df3bbf763d57275c313d98176929289
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Army Materiel Command
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Materiel Command (AMC)
+            - codes: 
+              - 21X1
+        - parentheticals: 
+          - AMC
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -16932,6 +18523,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - U.S. Army Tank-Auto. & Armament Command
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Tank-Auto. & Armament Command (TACOM)
+            - codes: 
+              - 21X7
+        - parentheticals: 
+          - TACOM
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - U.S. Army Tank-Auto. & Armament Command (TACOM)
         - parents: 
           - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
@@ -17024,6 +18632,23 @@
 --- !omap 
 - uid: 1e20403245757d75307cd3e3d5b3e177074881f3
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Army Soldiers System Command
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Soldiers System Command (SSC)
+            - codes: 
+              - 21XC
+        - parentheticals: 
+          - SSC
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -17195,6 +18820,23 @@
 --- !omap 
 - uid: 6836fdc6c2c34c340aa095abefc62e876dffe1c0
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Resolution Funding Corporation
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Resolution Funding Corporation (REFCORP)
+            - codes: 
+              - "2281"
+        - parentheticals: 
+          - REFCORP
+    - time: 2009-12-01 14:04:52 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -21511,6 +23153,24 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Air National Guard Units
+        - parents: 
+          - 356b21d2d935317b3b3e00433e4284763bf3201b
+        - federalreporting.gov: !omap 
+            - names: 
+              - Air National Guard Units (Mobilization) (Title 5)
+            - codes: 
+              - "5734"
+        - parentheticals: 
+          - Title 5
+          - Mobilization
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Air National Guard Units (Mobilization) (Title 5)
         - parents: 
           - 356b21d2d935317b3b3e00433e4284763bf3201b
@@ -21872,6 +23532,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Air National Guard Units
+        - parents: 
+          - 356b21d2d935317b3b3e00433e4284763bf3201b
+        - federalreporting.gov: !omap 
+            - names: 
+              - Air National Guard Units (Title 32)
+            - codes: 
+              - 57NG
+        - parentheticals: 
+          - Title 32
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Air National Guard Units (Title 32)
         - parents: 
           - 356b21d2d935317b3b3e00433e4284763bf3201b
@@ -21891,6 +23568,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - U.S. Special Operations Command
+        - parents: 
+          - 356b21d2d935317b3b3e00433e4284763bf3201b
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Special Operations Command (ANG Title 32)
+            - codes: 
+              - 57ZG
+        - parentheticals: 
+          - ANG Title 32
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - U.S. Special Operations Command (ANG Title 32)
         - parents: 
           - 356b21d2d935317b3b3e00433e4284763bf3201b
@@ -21907,6 +23601,23 @@
 --- !omap 
 - uid: 7e08fc889b6d6dc645e20bc581a6146bbf6446fd
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Special Operations Command
+        - parents: 
+          - 356b21d2d935317b3b3e00433e4284763bf3201b
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Special Operations Command (Air Force)
+            - codes: 
+              - 57ZS
+        - parentheticals: 
+          - Air Force
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -23316,6 +25027,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - National Railroad Passenger Corporation
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Railroad Passenger Corporation (AMTRAK)
+            - codes: 
+              - "6991"
+        - parentheticals: 
+          - AMTRAK
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - National Railroad Passenger Corporation (AMTRAK)
         - parents: 
           - 28d7fc631f609c4949332413d6a7bec09bebd296
@@ -24418,6 +26146,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Federal Agricultural Mortgage Corporation
+        - parents: 
+          - 2533676025593a2e743c26a5c61824b518820c13
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Agricultural Mortgage Corporation (Farmer Mac)
+            - codes: 
+              - "7889"
+        - parentheticals: 
+          - Farmer Mac
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Federal Agricultural Mortgage Corporation (Farmer Mac)
         - parents: 
           - 2533676025593a2e743c26a5c61824b518820c13
@@ -25045,6 +26790,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Government National Mortgage Association
+        - parents: 
+          - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
+        - federalreporting.gov: !omap 
+            - names: 
+              - Government National Mortgage Association (Ginnie Mae)
+            - codes: 
+              - "8625"
+        - parentheticals: 
+          - Ginnie Mae
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Government National Mortgage Association (Ginnie Mae)
         - parents: 
           - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
@@ -25463,6 +27225,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Federal National Mortgage Association
+        - parents: 
+          - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal National Mortgage Association (Fannie Mae)
+            - codes: 
+              - "8681"
+        - parentheticals: 
+          - Fannie Mae
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Federal National Mortgage Association (Fannie Mae)
         - parents: 
           - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
@@ -25479,6 +27258,23 @@
 --- !omap 
 - uid: 72929db0618a4260a139fc056d8a49f2f5d72ace
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Home Loan Mortgage Corporation
+        - parents: 
+          - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Home Loan Mortgage Corporation (Freddie Mac)
+            - codes: 
+              - "8683"
+        - parentheticals: 
+          - Freddie Mac
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -26166,6 +27962,24 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Albuquerque Operations Office
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Albuquerque Operations Office (non-NNSA) (EM)
+            - codes: 
+              - 89AL
+        - parentheticals: 
+          - EM
+          - non-NNSA
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Albuquerque Operations Office (non-NNSA) (EM)
         - parents: 
           - 2948ba8841408755b961cbf42e3d75e04670cd44
@@ -26660,6 +28474,24 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Nevada Operations Office
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Nevada Operations Office (non-National Nuclear Security Administration) (Environmental Management)
+            - codes: 
+              - 89NV
+        - parentheticals: 
+          - Environmental Management
+          - non-National Nuclear Security Administration
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Nevada Operations Office (non-National Nuclear Security Administration) (Environmental Management)
         - parents: 
           - 2948ba8841408755b961cbf42e3d75e04670cd44
@@ -26676,6 +28508,24 @@
 --- !omap 
 - uid: d296a364f5b2bc40adad2e9ee2c55e2d7303198f
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Oakland Operations Office
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Oakland Operations Office (non-National Nuclear Security Administration) (Environmental Management)
+            - codes: 
+              - 89NW
+        - parentheticals: 
+          - Environmental Management
+          - non-National Nuclear Security Administration
+    - time: 2009-12-01 14:04:53 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -27952,6 +29802,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Student Loan Marketing Association
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Student Loan Marketing Association (Sallie Mae)
+            - codes: 
+              - "9181"
+        - parentheticals: 
+          - Sallie Mae
+    - time: 2009-12-01 14:04:54 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Student Loan Marketing Association (Sallie Mae)
         - parents: 
           - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
@@ -27968,6 +29835,23 @@
 --- !omap 
 - uid: 929f06b4e3cbad2ef0aa1dbb922b003d46a834c5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - College Construction Loan Insurance Association
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - College Construction Loan Insurance Association (Connie Lee)
+            - codes: 
+              - "9182"
+        - parentheticals: 
+          - Connie Lee
+    - time: 2009-12-01 14:04:54 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -28902,6 +30786,23 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Financing Corporation
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Financing Corporation (FICO)
+            - codes: 
+              - "9585"
+        - parentheticals: 
+          - FICO
+    - time: 2009-12-01 14:04:54 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Financing Corporation (FICO)
         - parents: []
 
@@ -29127,6 +31028,23 @@
 --- !omap 
 - uid: cf0d1875d98fac9dce5b9cac8850999af4930292
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Defense
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Defense (except military departments)
+            - codes: 
+              - "9700"
+        - parentheticals: 
+          - except military departments
+    - time: 2009-12-01 14:04:54 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0004-handle-parentheses.rb
   - !omap 
     - data: !omap 
         - names: 
