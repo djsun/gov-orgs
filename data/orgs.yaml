@@ -172,6 +172,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Bureau of Industry and Security
+        - urls: 
+          - http://www.bis.doc.gov/
+        - former_names: 
+          - Bureau of Export Administration
+    - time: 2009-12-01 14:03:58 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0003-formerly-known-as.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Bureau of Industry and Security (formerly the Bureau of Export Administration)
         - urls: 
           - http://www.bis.doc.gov/
@@ -396,6 +408,18 @@
   - !omap 
     - data: !omap 
         - names: 
+          - Centers for Medicare & Medicaid Services
+        - urls: 
+          - http://www.cms.hhs.gov
+        - former_names: 
+          - Health Care Financing Administration
+    - time: 2009-12-01 14:03:58 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0003-formerly-known-as.rb
+  - !omap 
+    - data: !omap 
+        - names: 
           - Centers for Medicare & Medicaid Services (formerly the Health Care Financing Administration)
         - urls: 
           - http://www.cms.hhs.gov
@@ -533,6 +557,18 @@
 --- !omap 
 - uid: e808d32a17b197e8c336ec221e0dbd2efa5e621b
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Citizenship and Immigration Services Bureau
+        - urls: 
+          - http://www.uscis.gov/portal/site/uscis
+        - former_names: 
+          - Immigration and Naturalization Service
+    - time: 2009-12-01 14:03:58 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0003-formerly-known-as.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1835,6 +1871,18 @@
 --- !omap 
 - uid: 9255d160a2f039b1d9e943abe246e632ebc8cbd5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Employee Benefits Security Administration
+        - urls: 
+          - http://www.dol.gov/ebsa/
+        - former_names: 
+          - Pension and Welfare Benefits Administration
+    - time: 2009-12-01 14:03:58 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0003-formerly-known-as.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3361,6 +3409,18 @@
 --- !omap 
 - uid: f8b99ead30021777508b29beaf985ae690206301
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Industry and Security, Bureau of
+        - urls: 
+          - http://www.bis.doc.gov/
+        - former_names: 
+          - Bureau of Export Administration
+    - time: 2009-12-01 14:03:58 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: 0003-formerly-known-as.rb
   - !omap 
     - data: !omap 
         - names: 
