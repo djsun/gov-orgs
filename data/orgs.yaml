@@ -21,6 +21,24 @@
           - Bankruptcy Courts
         - urls: 
           - http://www.uscourts.gov/bankruptcycourts.html
+        - parents: 
+          - 0ed17019889b146e48ae31b20d7b65adefd6f490
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bankruptcy Courts
+            - codes: 
+              - "1021"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4d2fdeda9eff8aa7f78753b28f7fe6ec1d4f750a
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bankruptcy Courts
+        - urls: 
+          - http://www.uscourts.gov/bankruptcycourts.html
     - time: 2009-12-01 14:02:31 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/B.shtml
     - by: !omap 
@@ -58,6 +76,13 @@
 - uid: 7956beb2be5d8b8b0271b717a77c7fcc8f21b8dc
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 36015b2705d60751f899c99354a52748618d6880
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Botanic Garden
@@ -71,6 +96,13 @@
 --- !omap 
 - uid: 3660b1f9a12dd5b541f05866f260ec0e65641803
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 81b69b98dcb8d567401a5dcbbec114a7d87d8f86
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -97,6 +129,27 @@
 --- !omap 
 - uid: bc2101ada05e83e975e2ba641969bf068fc005ee
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Alcohol and Tobacco Tax and Trade
+          - Alcohol and Tobacco Tax and Trade Bureau
+        - urls: 
+          - http://www.ttb.gov/
+        - parentheticals: 
+          - Treasury
+        - parents: 
+          - 52ef6bf47eb0df7fb8e7b931fce72666c8b2a394
+        - federalreporting.gov: !omap 
+            - names: 
+              - Alcohol and Tobacco Tax and Trade Bureau
+            - codes: 
+              - "2022"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 97b39d14d2ea89b45f3ec1c23a834ff88faa5040
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -202,6 +255,13 @@
 - uid: 900dcf83e769c234a7290da2b08988ac168f64bd
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 5773b5c1341cad0444b8a9edb21b19216483d8d6
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Bureau of Engraving and Printing
@@ -241,6 +301,13 @@
 --- !omap 
 - uid: 071728398756b46f32b215d636c4683044ff3c9e
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: f8b99ead30021777508b29beaf985ae690206301
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -299,6 +366,37 @@
     - data: !omap 
         - names: 
           - Bureau of Labor Statistics
+          - Labor Statistics, Bureau of
+        - urls: 
+          - http://stats.bls.gov/
+        - parents: 
+          - 91ad1d04814f58762f96b4b1083f1bf2680bf619
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of Labor Statistics
+            - codes: 
+              - "1625"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4fd0e93c3e493aa1e92d05e9742711bf95c3e30a
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Labor Statistics
+          - Labor Statistics, Bureau of
+        - urls: 
+          - http://stats.bls.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: eba028a0d59bd798da0ef3f4f744f36abee35153
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Labor Statistics
         - urls: 
           - http://stats.bls.gov/
     - time: 2009-12-01 14:02:31 -0500
@@ -309,6 +407,13 @@
 --- !omap 
 - uid: a599590c359a433c9a813f86ffaa589bcad0bf9b
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 300271032fe1b2c74e3413b90fa18e895263607a
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -353,6 +458,38 @@
     - data: !omap 
         - names: 
           - Bureau of Public Debt
+          - Public Debt, Bureau of
+          - Bureau of the Public Debt
+        - urls: 
+          - http://www.publicdebt.treas.gov/
+        - parents: 
+          - 52ef6bf47eb0df7fb8e7b931fce72666c8b2a394
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of the Public Debt
+            - codes: 
+              - "2036"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 18023fe6f4ff248ce080242c0e77b5db802e77e8
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Public Debt
+          - Public Debt, Bureau of
+        - urls: 
+          - http://www.publicdebt.treas.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4193a30c5e278e2af6308375895a7e164ea9d6c1
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Public Debt
         - urls: 
           - http://www.publicdebt.treas.gov/
     - time: 2009-12-01 14:02:31 -0500
@@ -391,6 +528,13 @@
 --- !omap 
 - uid: c622d7999182e52a1cda8fed9d7d15fe095303e9
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 111b19438be76c9ded897e8eb323e64b59e92713
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -447,6 +591,13 @@
 --- !omap 
 - uid: a46224027a7db11039eeeafeae0c5b00464c347d
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 111b19438be76c9ded897e8eb323e64b59e92713
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -566,6 +717,26 @@
 --- !omap 
 - uid: 7ab599789ccfdd4d1e618559320db9c2d40e2f67
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Central Intelligence Agency
+        - urls: 
+          - http://www.cia.gov/
+        - parentheticals: 
+          - CIA
+        - parents: 
+          - 02d92716de94cbd0512e1da5b3875a1d26496f9b
+        - federalreporting.gov: !omap 
+            - names: 
+              - Central Intelligence Agency
+            - codes: 
+              - "5600"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 02d92716de94cbd0512e1da5b3875a1d26496f9b
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -855,6 +1026,13 @@
 - uid: 5acb303fb905f3f68d8ca356a50dd2c9948bf6da
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 25495cb3010e9bf3052b3f9b684ffd31176b1d0b
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Commission on Security and Cooperation in Europe
@@ -908,6 +1086,13 @@
 --- !omap 
 - uid: 2b80986294aed944329b6aa46ca5b8af51222867
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: f30556f849cd05b8581d962c742450d4dfcc3a58
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1031,6 +1216,13 @@
 - uid: 367eb86e6c4ef06a6a108e8ad0be6c7fe0dd15e3
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 82452596081033f7f6547ed9780b6d96d105035d
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Congress
@@ -1127,6 +1319,13 @@
 - uid: f06c25aa574154b56e4fba5b837ee0c003061bf5
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 7bc5c89e7aa675320ba68173d2c024a6fda52c8b
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Consumer Product Safety Commission
@@ -1200,6 +1399,24 @@
           - Corporation for National and Community Service
         - urls: 
           - http://www.cns.gov/
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Corporation for National and Community Service
+            - codes: 
+              - "9577"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: abb1845e2605426b5b3a2dad071fd3de4d2afbe9
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Corporation for National and Community Service
+        - urls: 
+          - http://www.cns.gov/
     - time: 2009-12-01 14:02:32 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/C.shtml
     - by: !omap 
@@ -1264,6 +1481,24 @@
 --- !omap 
 - uid: 738964d8f31ec18d96aab7d7e24ae5975e7e5086
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Court Services and Offender Supervision Agency for the District of Columbia
+        - urls: 
+          - http://www.csosa.gov
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Court Services and Offender Supervision Agency for the District of Columbia
+            - codes: 
+              - "9594"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 850273d9cd938a4438b621c06f5b4b9fb7a6a0ad
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1377,6 +1612,13 @@
 - uid: a1cd1b826ceed658edea7570c1a7954408c953ee
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 2b73b8d7304b46ed7ef8206c015ed719c48a94a1
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Defense Advanced Research Projects Agency
@@ -1402,6 +1644,13 @@
 --- !omap 
 - uid: d944ff68e1d94ca0cdf0af8cd468b0d1154c50be
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 8bd5254a68a75bf0391fc81bf06958b96a6349c0
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1443,6 +1692,13 @@
 - uid: d1b905942f8cea55b2d4bc3d20a62d0c9051e6b0
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: fce61b16e0508bca40b2842edc927bced7ebc9db
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Defense Contract Management Agency
@@ -1456,6 +1712,20 @@
 --- !omap 
 - uid: ac0cea7606a4ca8968bfae5f97ee9554110096ad
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Department
+          - Department of Defense
+        - urls: 
+          - http://www.defenselink.mil/
+        - parentheticals: 
+          - DOD
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: fe018346ff7c6306b0e43f60abcd3b29625f358f
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1523,6 +1793,13 @@
 - uid: 5225666c8b1767c9a6ddaac606c41d4aee9c9cb3
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 519b87e4fdc724d1593b18365d83ba355939302f
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Defense Information Systems Agency
@@ -1575,6 +1852,13 @@
 - uid: a89e7bb103ae5cddf508db5801c5228a085f71c8
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 444203d56dce4cbabc9762beb3cf1ac1512e2004
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Defense Legal Services Agency
@@ -1620,6 +1904,24 @@
           - Defense Nuclear Facilities Safety Board
         - urls: 
           - http://www.dnfsb.gov/
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Nuclear Facilities Safety Board
+            - codes: 
+              - "9516"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 8e25af0f47f11d455ca8d95d52818c6f5e8be287
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Nuclear Facilities Safety Board
+        - urls: 
+          - http://www.dnfsb.gov/
     - time: 2009-12-01 14:02:33 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/D.shtml
     - by: !omap 
@@ -1628,6 +1930,13 @@
 --- !omap 
 - uid: 4981d0ca884be36467be25b4574fd69770aff7b6
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: b4d584e341b68f01cf042e4d0f816796cb3b1bb2
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1655,6 +1964,13 @@
 - uid: 9d1b681ab456c3d9eb97d4a41f67ca242e70fd41
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 25a4b3b14e73173bc854b8a0cfd35e75366e8ad9
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Defense Security Service
@@ -1680,6 +1996,13 @@
 --- !omap 
 - uid: 40f42fa90215dbaba4dfce83b982b80bb938e893
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 77c480ecee93dc01e2674daaca2c253a7d46ef56
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1829,6 +2152,13 @@
 - uid: fe018346ff7c6306b0e43f60abcd3b29625f358f
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: ac0cea7606a4ca8968bfae5f97ee9554110096ad
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Department of Defense
@@ -1898,6 +2228,41 @@
     - data: !omap 
         - names: 
           - Department of Energy
+          - Energy Department
+        - urls: 
+          - http://www.energy.gov/
+        - parentheticals: 
+          - DOE
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Energy
+            - codes: 
+              - "8900"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 2948ba8841408755b961cbf42e3d75e04670cd44
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Energy
+          - Energy Department
+        - urls: 
+          - http://www.energy.gov/
+        - parentheticals: 
+          - DOE
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 99285f9553ce1acacfcfbdbcb4ed7acdde5aafa5
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Energy
         - urls: 
           - http://www.energy.gov/
         - parentheticals: 
@@ -1947,6 +2312,13 @@
 - uid: 13bb33964f307795eb021a2b4f9d8ff93ccb5180
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Department of Homeland Security
@@ -1973,6 +2345,33 @@
 - uid: 570330d42cbdaf15c349205fb96a2b7d03ddcd1b
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: b77646a9203cc98b07ca3facae09d6926b7f05fb
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Housing and Urban Development
+        - urls: 
+          - http://www.hud.gov/
+        - parentheticals: 
+          - HUD
+        - parents: 
+          - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Housing and Urban Development
+            - codes: 
+              - "8600"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Department of Housing and Urban Development
@@ -1998,6 +2397,13 @@
 --- !omap 
 - uid: dc0c6edf9ef59ffc6304cfb1a8a17ce51a092493
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 0b7e6499dd545950ce19cd56a680e12912acbf26
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2077,6 +2483,27 @@
 - uid: 04f7f8504ec1c260635740ff16e31e7e49bd0717
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 28d7fc631f609c4949332413d6a7bec09bebd296
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Transportation
+          - Transportation Department
+        - urls: 
+          - http://www.dot.gov/
+        - parentheticals: 
+          - DOT
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 2c31807281beb69ff2d2190b3bc4217fd0456c9f
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Department of Transportation
@@ -2102,6 +2529,13 @@
 --- !omap 
 - uid: 6ae10630b6b24ba6709dc1e1862d09e9f5273924
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1f2065c7d2abe8adaa8e68c33341879fbc42ab70
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2254,6 +2688,25 @@
     - data: !omap 
         - names: 
           - Economic Adjustment Office
+          - Office of Economic Adjustment
+        - urls: 
+          - http://www.oea.gov
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Office of Economic Adjustment
+            - codes: 
+              - 97F6
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 48f0f7d823cd5b6b5024e2814b74b4eb2cad4d95
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Economic Adjustment Office
         - urls: 
           - http://www.oea.gov
     - time: 2009-12-01 14:02:34 -0500
@@ -2389,6 +2842,24 @@
           - Election Assistance Commission
         - urls: 
           - http://www.eac.gov/
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Election Assistance Commission
+            - codes: 
+              - "9523"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: bef35937e6b8dd5e43508f0d04a674603aabb1d2
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Election Assistance Commission
+        - urls: 
+          - http://www.eac.gov/
     - time: 2009-12-01 14:02:34 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/E.shtml
     - by: !omap 
@@ -2437,6 +2908,24 @@
 --- !omap 
 - uid: d69319b6f33718acf06bf8559dbd573d9d503508
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Employment Standards Administration
+        - urls: 
+          - http://www.dol.gov/esa/
+        - parents: 
+          - 91ad1d04814f58762f96b4b1083f1bf2680bf619
+        - federalreporting.gov: !omap 
+            - names: 
+              - Employment Standards Administration
+            - codes: 
+              - "1635"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 11f6a7d709508d469e656d5c62a2f1b969df1cf2
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2492,6 +2981,13 @@
 - uid: 99285f9553ce1acacfcfbdbcb4ed7acdde5aafa5
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 3d855ab4c2c7db902d6bbe0e30419631b13a5d38
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Energy Department
@@ -2546,6 +3042,13 @@
 - uid: 3997d9c3ab61e84ab65bc2c95cf77ec0df5b6e46
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: e015a37c3a9b6a5385d54c8ddb06f91e3ad57e91
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - English Language Acquisition Office
@@ -2559,6 +3062,18 @@
 --- !omap 
 - uid: 5773b5c1341cad0444b8a9edb21b19216483d8d6
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Engraving and Printing, Bureau of
+          - Bureau of Engraving and Printing
+        - urls: 
+          - http://www.bep.treas.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 900dcf83e769c234a7290da2b08988ac168f64bd
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2739,6 +3254,24 @@
           - Farm Credit Administration
         - urls: 
           - http://www.fca.gov/
+        - parents: 
+          - 2533676025593a2e743c26a5c61824b518820c13
+        - federalreporting.gov: !omap 
+            - names: 
+              - Farm Credit Administration
+            - codes: 
+              - "7800"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 2533676025593a2e743c26a5c61824b518820c13
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Farm Credit Administration
+        - urls: 
+          - http://www.fca.gov/
     - time: 2009-12-01 14:02:35 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/F.shtml
     - by: !omap 
@@ -2747,6 +3280,13 @@
 --- !omap 
 - uid: 3a88aa6e4008c4408a078b08a6a72483cbd55314
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 571f4bbb544af43eff9aeceb474946507bbecf75
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -2908,6 +3448,13 @@
 - uid: 37186f94f99263b5b8ba3b24947fb1f628b60aca
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 700961d35e452dcd5a660a8bf7c3483d396f1872
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Deposit Insurance Corporation
@@ -2948,6 +3495,13 @@
 - uid: 4130a97427d2d5c6b9fe5028d1221c99053cecd5
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 645152fe51a5b5ad49ced5c99f359be30b42de20
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Emergency Management Agency
@@ -2973,6 +3527,24 @@
 --- !omap 
 - uid: 1bea7777e4a6cb10ab5ebe414d3af664235895bd
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Energy Regulatory Commission
+        - urls: 
+          - http://www.ferc.gov/
+        - parents: 
+          - 2948ba8841408755b961cbf42e3d75e04670cd44
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Energy Regulatory Commission
+            - codes: 
+              - "8990"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: f3e5d59a03023f5d12482cb0599931f23b691886
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3072,6 +3644,13 @@
 - uid: 725b8b0a262d9236ba86a4f874d21a6edf4154da
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 3488c706013baacf4d6f47e64911378b9b014cdc
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Housing Finance Board
@@ -3099,6 +3678,24 @@
 --- !omap 
 - uid: 7c80c1163fa050de3534ac696fffd643db8f6573
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Interagency Committee on Education
+        - urls: 
+          - http://www.ed.gov/about/bdscomm/list/com.html#fice
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Interagency Committee on Education
+            - codes: 
+              - 916D
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 30a38738472cc74789cb7415593c58061e2744df
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3147,6 +3744,24 @@
           - Federal Labor Relations Authority
         - urls: 
           - http://www.flra.gov/index.html
+        - parents: 
+          - 883866b9368802b295b2e3bc04d109ca7ad44b03
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Labor Relations Authority
+            - codes: 
+              - "5400"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 883866b9368802b295b2e3bc04d109ca7ad44b03
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Labor Relations Authority
+        - urls: 
+          - http://www.flra.gov/index.html
     - time: 2009-12-01 14:02:35 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/F.shtml
     - by: !omap 
@@ -3169,6 +3784,24 @@
 --- !omap 
 - uid: 3646c59761fe42970f9852201b04ca989defbe9c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Law Enforcement Training Center
+        - urls: 
+          - http://www.fletc.gov/
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Law Enforcement Training Center
+            - codes: 
+              - "7015"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 6363dbe88a8110c83c36886d65b67368a5abbcab
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3217,6 +3850,24 @@
           - Federal Mediation and Conciliation Service
         - urls: 
           - http://www.fmcs.gov/
+        - parents: 
+          - 48838f95f74b424cf70509753be4a08da2fbb705
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Mediation and Conciliation Service
+            - codes: 
+              - "9300"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 48838f95f74b424cf70509753be4a08da2fbb705
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Mediation and Conciliation Service
+        - urls: 
+          - http://www.fmcs.gov/
     - time: 2009-12-01 14:02:35 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/F.shtml
     - by: !omap 
@@ -3225,6 +3876,24 @@
 --- !omap 
 - uid: 8d884b7c974c3b3f5b7ad6799d39cb15b50e25d2
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Mine Safety and Health Review Commission
+        - urls: 
+          - http://www.msha.gov/SOLICITOR/FMSHRC/fmshrc.htm
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Mine Safety and Health Review Commission
+            - codes: 
+              - "9504"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 71cbd2191fa8f255f632b9e55325da79ad4db1c4
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3296,6 +3965,13 @@
 - uid: 6320ee7687f715274c787353d5699fb37492e610
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: b23b90a5bd10b24d6df25e050b9ef3671d706785
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Student Aid
@@ -3335,6 +4011,24 @@
 --- !omap 
 - uid: 85a2ce2eb637a8a5cb8b777514689641f3b7dd33
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Transit Administration
+        - urls: 
+          - http://www.fta.dot.gov/
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Transit Administration
+            - codes: 
+              - "6955"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: b61b2433a5230c2ba83133a8905055f69eb2c4f8
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3437,6 +4131,24 @@
           - Food Safety and Inspection Service
         - urls: 
           - http://www.fsis.usda.gov/
+        - parents: 
+          - 0673d215e0a167c076199e8745b6cc3066be0a27
+        - federalreporting.gov: !omap 
+            - names: 
+              - Food Safety and Inspection Service
+            - codes: 
+              - 12G2
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 18850eb18abe4b91acfeeee049df11dba708c92f
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Food Safety and Inspection Service
+        - urls: 
+          - http://www.fsis.usda.gov/
     - time: 2009-12-01 14:02:35 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/F.shtml
     - by: !omap 
@@ -3471,6 +4183,24 @@
 --- !omap 
 - uid: 7b7cbc5099f86e9f24e1c110c319a4887b833dcf
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Food and Nutrition Service
+        - urls: 
+          - http://www.fns.usda.gov/fns/default.htm
+        - parents: 
+          - 0673d215e0a167c076199e8745b6cc3066be0a27
+        - federalreporting.gov: !omap 
+            - names: 
+              - Food and Nutrition Service
+            - codes: 
+              - 12F2
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4556f03b794d8b52b69efe941ab443493b1441ba
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3527,6 +4257,24 @@
 --- !omap 
 - uid: b633966abc165f2e4f98dc348280b2324d69aef8
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Forest Service
+        - urls: 
+          - http://www.fs.fed.us/
+        - parents: 
+          - 0673d215e0a167c076199e8745b6cc3066be0a27
+        - federalreporting.gov: !omap 
+            - names: 
+              - Forest Service
+            - codes: 
+              - 12C2
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 78bfc33533e8586d8fba1037d30c4d858bfcae11
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3702,6 +4450,13 @@
 - uid: 85351aa2b02944d257ee1bed72e922459a04d990
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 4b040c14da96182e5e39a565e49d798a078b15f7
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Government National Mortgage Association
@@ -3715,6 +4470,26 @@
 --- !omap 
 - uid: 0416be7fbcdc553a9a22d02a193894bcc9383f65
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Government Printing Office
+        - urls: 
+          - http://www.gpo.gov/
+        - parentheticals: 
+          - GPO
+        - parents: 
+          - 61212d9f089e8d740d744d8ed4011b5853c0b0fd
+        - federalreporting.gov: !omap 
+            - names: 
+              - Government Printing Office
+            - codes: 
+              - "0400"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 61212d9f089e8d740d744d8ed4011b5853c0b0fd
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3741,6 +4516,13 @@
 --- !omap 
 - uid: 8bb64e1699e8b55ff5387f041a0c5a31e076c470
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 61c174beceee3cc41ce2b2150a1caddd52bd8269
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3769,6 +4551,13 @@
 --- !omap 
 - uid: 9d5d7c115f78bb16af2d4ee92d4a64a3f1cbd389
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 87f80abb9672ef369dc5302bf83498c9f023d7f5
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -3891,6 +4680,13 @@
 --- !omap 
 - uid: 2a46eb0b700e3f365f93e4f0a8682988a576b297
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4041,6 +4837,27 @@
 --- !omap 
 - uid: b77646a9203cc98b07ca3facae09d6926b7f05fb
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Housing and Urban Development Department
+          - Department of Housing and Urban Development
+        - urls: 
+          - http://www.hud.gov/
+        - parentheticals: 
+          - HUD
+        - parents: 
+          - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Housing and Urban Development
+            - codes: 
+              - "8600"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 570330d42cbdaf15c349205fb96a2b7d03ddcd1b
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4197,6 +5014,24 @@
           - Indian Arts and Crafts Board
         - urls: 
           - http://www.doi.gov/iacb/index.html
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Indian Arts and Crafts Board
+            - codes: 
+              - "1468"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 6c77b2f23f81b1813e757fa4c7a2c9eff051dec0
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Indian Arts and Crafts Board
+        - urls: 
+          - http://www.doi.gov/iacb/index.html
     - time: 2009-12-01 14:02:39 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/I.shtml
     - by: !omap 
@@ -4265,6 +5100,20 @@
     - data: !omap 
         - names: 
           - Industry and Security, Bureau of
+          - Bureau of Industry and Security
+        - urls: 
+          - http://www.bis.doc.gov/
+        - former_names: 
+          - Bureau of Export Administration
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 071728398756b46f32b215d636c4683044ff3c9e
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Industry and Security, Bureau of
         - urls: 
           - http://www.bis.doc.gov/
         - former_names: 
@@ -4316,6 +5165,13 @@
 - uid: 8e215b9ce178bee008b571c4c44694c8bca51921
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 7f6aeea25801bb719d41ca8880dfc578770d8657
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Institute of Education Sciences
@@ -4357,6 +5213,24 @@
 --- !omap 
 - uid: e9669fc2bc65a7e2e770c6e057091b206d06fb02
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Inter-American Foundation
+        - urls: 
+          - http://www.iaf.gov
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - Inter-American Foundation
+            - codes: 
+              - "1143"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 352a8b83937190edac2249ce4515c25dc25c35eb
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4553,6 +5427,24 @@
           - James Madison Memorial Fellowship Foundation
         - urls: 
           - http://www.jamesmadison.com/
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - James Madison Memorial Fellowship Foundation
+            - codes: 
+              - "9541"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 02fc1ae1be3d76184e6e710f2434f598191121dc
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - James Madison Memorial Fellowship Foundation
+        - urls: 
+          - http://www.jamesmadison.com/
     - time: 2009-12-01 14:02:40 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/J.shtml
     - by: !omap 
@@ -4575,6 +5467,13 @@
 --- !omap 
 - uid: e58b8812d87e4eff2c7810b4283c76c112d927bc
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 5ddd83d0ca8650c9905f75fff670a7d7c21fce5b
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4719,6 +5618,27 @@
     - data: !omap 
         - names: 
           - Justice Department
+          - Department of Justice
+        - urls: 
+          - http://www.usdoj.gov/
+        - parents: 
+          - 0b7e6499dd545950ce19cd56a680e12912acbf26
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Justice
+            - codes: 
+              - "1500"
+        - parentheticals: 
+          - DOJ
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 0b7e6499dd545950ce19cd56a680e12912acbf26
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Justice Department
         - urls: 
           - http://www.usdoj.gov/
     - time: 2009-12-01 14:02:40 -0500
@@ -4852,6 +5772,13 @@
 - uid: eba028a0d59bd798da0ef3f4f744f36abee35153
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 2f4eff7559049bd406fc9314027b813b0e54b4c8
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Labor Statistics, Bureau of
@@ -4865,6 +5792,28 @@
 --- !omap 
 - uid: 21eaaab7eab5e43e737104d179671d55fc1d2c96
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Land Management, Bureau of
+          - Bureau of Land Management
+        - urls: 
+          - http://www.blm.gov
+          - http://www.blm.gov/nhp/index.htm
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of Land Management
+            - codes: 
+              - "1422"
+        - parentheticals: 
+          - BLM
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 300271032fe1b2c74e3413b90fa18e895263607a
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4905,6 +5854,13 @@
 --- !omap 
 - uid: 46e25c08c1aba580d5343dc5c45f1043d46609a6
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: f7e5e51a58de757f919ead348f15bb89e2a64814
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5203,6 +6159,24 @@
           - Migratory Bird Conservation Commission
         - urls: 
           - http://realty.fws.gov/mbcc.html
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Migratory Bird Conservation Commission
+            - codes: 
+              - "1461"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: a9c22fb6d4aecbdaf6266441c2067e39d93dfc12
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Migratory Bird Conservation Commission
+        - urls: 
+          - http://realty.fws.gov/mbcc.html
     - time: 2009-12-01 14:02:43 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/M.shtml
     - by: !omap 
@@ -5245,6 +6219,24 @@
           - Mine Safety and Health Administration
         - urls: 
           - http://www.msha.gov/
+        - parents: 
+          - 91ad1d04814f58762f96b4b1083f1bf2680bf619
+        - federalreporting.gov: !omap 
+            - names: 
+              - Mine Safety and Health Administration
+            - codes: 
+              - "1645"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: d3ddebb3f5614b493a0badfde105c2f7b636dd85
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Mine Safety and Health Administration
+        - urls: 
+          - http://www.msha.gov/
     - time: 2009-12-01 14:02:43 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/M.shtml
     - by: !omap 
@@ -5253,6 +6245,13 @@
 --- !omap 
 - uid: 6135e4e6e929753ea930f23f0063cd7839220114
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: ed07912fb7e98638735df7802ed5026a5c29fcfb
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5343,6 +6342,26 @@
           - http://www.mda.mil/mdalink/html/mdalink.html
         - parentheticals: 
           - MDA
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Missile Defense Agency
+            - codes: 
+              - 97JC
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: f3e1e911aa8f991b41adf0fe28e69095aee5fd89
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Missile Defense Agency
+        - urls: 
+          - http://www.mda.mil/mdalink/html/mdalink.html
+        - parentheticals: 
+          - MDA
     - time: 2009-12-01 14:04:51 -0500
     - by: !omap 
         - repository: http://github.com/djsun/gov-orgs
@@ -5375,6 +6394,13 @@
 --- !omap 
 - uid: e74007342bcd835e17668bff3fe6c5c3b745bb71
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: b2ed80cb44affdec940c1ed78b63c87927dcd3ba
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5587,6 +6613,24 @@
           - National Capital Planning Commission
         - urls: 
           - http://www.ncpc.gov/
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Capital Planning Commission
+            - codes: 
+              - "9502"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: e654e57142a81e2d7ac2d13ac38ec5ad5f5e381e
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Capital Planning Commission
+        - urls: 
+          - http://www.ncpc.gov/
     - time: 2009-12-01 14:02:44 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/N.shtml
     - by: !omap 
@@ -5683,6 +6727,24 @@
           - National Defense University
         - urls: 
           - http://www.ndu.edu/
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Defense University
+            - codes: 
+              - "9769"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: ccca8d441c7fd5c2591d836dc3340242d0b6802e
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Defense University
+        - urls: 
+          - http://www.ndu.edu/
     - time: 2009-12-01 14:02:44 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/N.shtml
     - by: !omap 
@@ -5719,6 +6781,24 @@
 --- !omap 
 - uid: 110a33bab72155aa53f14c06d563c9f79ce8b139
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Endowment for the Arts
+        - urls: 
+          - http://arts.endow.gov/
+        - parents: 
+          - 0794cd7d5ed7096cd5dccdf08d3740490b75176e
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Endowment for the Arts
+            - codes: 
+              - "5920"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 7a5e5f6af74a6462eb0657e9c98a18ab99551142
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5767,6 +6847,24 @@
           - National Geospatial-Intelligence Agency
         - urls: 
           - http://www.nga.mil/
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Geospatial-Intelligence Agency
+            - codes: 
+              - 97AB
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 833c6b56584fd051090b67ef325ddb2a3e5b44b2
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Geospatial-Intelligence Agency
+        - urls: 
+          - http://www.nga.mil/
     - time: 2009-12-01 14:02:44 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/N.shtml
     - by: !omap 
@@ -5795,6 +6893,24 @@
           - National Highway Traffic Safety Administration
         - urls: 
           - http://www.nhtsa.dot.gov/
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Highway Traffic Safety Administration
+            - codes: 
+              - "6940"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: aac1427dea78ac3aaa6bbed385a6c7f7c810e0ba
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Highway Traffic Safety Administration
+        - urls: 
+          - http://www.nhtsa.dot.gov/
     - time: 2009-12-01 14:02:44 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/N.shtml
     - by: !omap 
@@ -5803,6 +6919,24 @@
 --- !omap 
 - uid: 10ec7eb8a9d42f886532121bbaaac7e5f1c849ef
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Indian Gaming Commission
+        - urls: 
+          - http://www.nigc.gov
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Indian Gaming Commission
+            - codes: 
+              - "1469"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 1375eb1a3ff8a369e4e730f9b9ce161061c0ed74
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -5912,6 +7046,13 @@
 - uid: 582e056ce982e952033fca6317b8926c74f89550
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 243873f9f806789939c4a3caff5ee2ac8a28cb20
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - National Labor Relations Board
@@ -6008,6 +7149,13 @@
 - uid: 1e07e7fe08c816462d5c6e01bd70760dde871c69
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 3366de91fec1e893a170b90692db1a9d1b52a318
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - National Oceanic and Atmospheric Administration
@@ -6047,6 +7195,25 @@
 --- !omap 
 - uid: 18b54134e944bb79cc9a91faf7dcdd86ad10b1ac
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Park Service
+          - National Park Service.
+        - urls: 
+          - http://www.nps.gov/
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Park Service.
+            - codes: 
+              - "1443"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: a26c592a72078016e367a3b72fbc350cebd46069
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6147,6 +7314,24 @@
           - National Security Council
         - urls: 
           - http://www.whitehouse.gov/nsc/index.html
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Security Council
+            - codes: 
+              - "1102"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 8fce9d9167be287919d47b55c7b0cec7d1862204
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Security Council
+        - urls: 
+          - http://www.whitehouse.gov/nsc/index.html
     - time: 2009-12-01 14:02:44 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/N.shtml
     - by: !omap 
@@ -6211,6 +7396,13 @@
 --- !omap 
 - uid: 551d9cb47a6942000068b2b2e715bf25301cbdf9
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1a21b565bf6426821a128c1f3f9dfb3753abedd5
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6519,6 +7711,24 @@
 --- !omap 
 - uid: 846eca56db853ecb998574befc9befd6cb11062c
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Nuclear Regulatory Commission
+        - urls: 
+          - http://www.nrc.gov/
+        - parents: 
+          - 71211ff321f68c21ff0df58a32cce8a8037ae758
+        - federalreporting.gov: !omap 
+            - names: 
+              - Nuclear Regulatory Commission
+            - codes: 
+              - "3100"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 71211ff321f68c21ff0df58a32cce8a8037ae758
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -6987,6 +8197,13 @@
 - uid: 30c73288d554653eceec623cb994ca1e865b0746
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 2361ac5aaab624bbcf77031a5fd677c958074aa8
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Peace Corps
@@ -7034,6 +8251,24 @@
           - Pension Benefit Guaranty Corporation
         - urls: 
           - http://www.pbgc.gov/
+        - parents: 
+          - 91ad1d04814f58762f96b4b1083f1bf2680bf619
+        - federalreporting.gov: !omap 
+            - names: 
+              - Pension Benefit Guaranty Corporation
+            - codes: 
+              - "1665"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 3f5cd1820499dcda1c14bea9607b266b9e86db68
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Pension Benefit Guaranty Corporation
+        - urls: 
+          - http://www.pbgc.gov/
     - time: 2009-12-01 14:02:47 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/P.shtml
     - by: !omap 
@@ -7069,6 +8304,13 @@
 - uid: 1f5dc14f1d409b92702067687e560cbe6e57f721
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 85ba42579bc0d4bb3b6c3fceb5f2ac31e4c09f3a
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Pentagon Force Protection Agency
@@ -7082,6 +8324,13 @@
 --- !omap 
 - uid: be77437ac9763e630299baf0e88d98c08155f49a
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 3efe01a67910df3407d1ccfb118cb47cea891439
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7255,6 +8504,13 @@
 - uid: 4193a30c5e278e2af6308375895a7e164ea9d6c1
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: ed8654a9c071feaf9a16d768a737aac10c3e5590
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Public Debt, Bureau of
@@ -7427,6 +8683,13 @@
 - uid: 2b9a1179c3d976047834e35475178f4a6dbdc835
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 000623ba158dc9d5bd14df2810bd8096a9d6db5a
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Reclamation, Bureau of
@@ -7494,6 +8757,13 @@
 --- !omap 
 - uid: 30939774f1db28cf12bbe5aa75131533bb661494
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: d5c4333b0eab44937f3f9d7215ef9effb5ef8853
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7643,6 +8913,13 @@
 - uid: 7b0a4ed5f040cc4a7ee83c34afe2727cc0096239
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 0d53086267b3da1fb12292acd8396c061d0e2438
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Rural Utilities Service
@@ -7737,6 +9014,13 @@
 - uid: 718085712742f26a632b8d30200e594baa7828f1
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 1f4bc88d55c0fb1c6993c2f67408fdcc14636e7f
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Selective Service System
@@ -7750,6 +9034,13 @@
 --- !omap 
 - uid: 3cd1944422889624c3cf4b15e25c0886dc806488
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: aa070dbc02b88d06693b97c25fc6347a0aa61c6f
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7838,6 +9129,44 @@
           - Smithsonian Institution
         - urls: 
           - http://www.si.edu/
+        - parents: 
+          - aca256c598bab155fd4825fddc8e14b4ed4f246c
+        - federalreporting.gov: !omap 
+            - names: 
+              - Smithsonian Institution, except units admin under separate Bds of Trustees
+              - Smithsonian Institution
+            - codes: 
+              - "3320"
+              - "3300"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: aca256c598bab155fd4825fddc8e14b4ed4f246c
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Smithsonian Institution
+        - urls: 
+          - http://www.si.edu/
+        - parents: 
+          - aca256c598bab155fd4825fddc8e14b4ed4f246c
+        - federalreporting.gov: !omap 
+            - names: 
+              - Smithsonian Institution, except units admin under separate Bds of Trustees
+            - codes: 
+              - "3320"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 3990a1bd6dc9a3f8462d4ba85dec2ee5a32a0f3e
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Smithsonian Institution
+        - urls: 
+          - http://www.si.edu/
     - time: 2009-12-01 14:02:49 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/S.shtml
     - by: !omap 
@@ -7846,6 +9175,13 @@
 --- !omap 
 - uid: e2f4fd6de850a245dba85552bbda11cff58b9fe7
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1fe27d106be225f4b1150e6c68900a95edb221e4
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -8027,6 +9363,13 @@
 - uid: 10d8e41aa47069c44a3ff60fc2a5702a39281877
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: e7073a34b72a11fed241122e0996e5dc85503814
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - State Department
@@ -8054,6 +9397,13 @@
 --- !omap 
 - uid: 208591066fe8d173af91e6aa54d83ea9af341aee
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 2094492f3589f7f353a1b9a26ef5b4cdf3204954
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -8097,6 +9447,13 @@
 - uid: 7c4775bc4b7643b5337bfac98ab712e9a460a84e
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: f55f1dab746510e921553677947d868cd7d3dda4
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Substance Abuse and Mental Health Services Administration
@@ -8124,6 +9481,13 @@
 --- !omap 
 - uid: c2e93d502ca4701c8b6e081fad16cb13e7b4b19a
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: c97332f8dd113229d25bd27f8a83b7169a1619b5
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -8251,6 +9615,13 @@
 - uid: 547507c8f91f6f08cda386fe723837eea6aa561c
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 5d1326d2a63bb0b979c293c121f59c9172c51186
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Tennessee Valley Authority
@@ -8321,6 +9692,13 @@
 - uid: 2c31807281beb69ff2d2190b3bc4217fd0456c9f
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 04f7f8504ec1c260635740ff16e31e7e49bd0717
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Transportation Department
@@ -8346,6 +9724,13 @@
 --- !omap 
 - uid: 70aa91fc81f5ba5840da2e7b8438b820fbe352d5
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: cb46a45501ae563d9c6ce8bec38e8045a7ba418f
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -8460,6 +9845,24 @@
           - U.S. Citizenship and Immigration Services
         - urls: 
           - http://www.uscis.gov/portal/site/uscis
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Citizenship and Immigration Services
+            - codes: 
+              - "7003"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: f593a72844c4fb58b897e2bf9c14a5d9230ba958
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Citizenship and Immigration Services
+        - urls: 
+          - http://www.uscis.gov/portal/site/uscis
     - time: 2009-12-01 14:02:51 -0500
     - import_uri: http://www.usa.gov/Agencies/Federal/All_Agencies/U.shtml
     - by: !omap 
@@ -8483,6 +9886,13 @@
 - uid: 89a12badf3b8fcf0434cdebe06a18d54f497b7f0
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: c963dc959d06dc2b6839891b1244b508048ec25c
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - U.S. Immigration and Customs Enforcement
@@ -8496,6 +9906,24 @@
 --- !omap 
 - uid: d9d674c2f1c11eb1a4ee7845b8198ca52b00ffd8
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. International Trade Commission
+        - urls: 
+          - http://www.usitc.gov/
+        - parents: 
+          - 52f60ee7a88951429ceb50fd36357b29e65a6e86
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. International Trade Commission
+            - codes: 
+              - "3400"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 52f60ee7a88951429ceb50fd36357b29e65a6e86
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -8760,6 +10188,41 @@
     - data: !omap 
         - names: 
           - Veterans Affairs Department
+          - Department of Veterans Affairs
+        - urls: 
+          - http://www.va.gov/
+        - parentheticals: 
+          - VA
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Veterans Affairs
+            - codes: 
+              - "3600"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 6e2e26a26df9bab6444c43fa965142af12218475
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Veterans Affairs Department
+          - Department of Veterans Affairs
+        - urls: 
+          - http://www.va.gov/
+        - parentheticals: 
+          - VA
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 6ae10630b6b24ba6709dc1e1862d09e9f5273924
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Veterans Affairs Department
         - urls: 
           - http://www.va.gov/
         - parentheticals: 
@@ -8921,6 +10384,13 @@
 - uid: be330bc7b51197e8b99db9c90f109e1c88fb0f56
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 65f10fbe27ca545c5609828fbfb89a7b8fecd479
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Washington Headquarters Services
@@ -8962,6 +10432,18 @@
 --- !omap 
 - uid: 1a21b565bf6426821a128c1f3f9dfb3753abedd5
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Weather Service, National
+          - National Weather Service
+        - urls: 
+          - http://www.nws.noaa.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 551d9cb47a6942000068b2b2e715bf25301cbdf9
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -9136,6 +10618,26 @@
           - http://www.dol.gov/wb/
         - parentheticals: 
           - Labor Department
+        - parents: 
+          - 91ad1d04814f58762f96b4b1083f1bf2680bf619
+        - federalreporting.gov: !omap 
+            - names: 
+              - Women's Bureau
+            - codes: 
+              - "1655"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: e31684ada9a0d6da4ec656bfa5e769283cc02bd8
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Women's Bureau
+        - urls: 
+          - http://www.dol.gov/wb/
+        - parentheticals: 
+          - Labor Department
     - time: 2009-12-01 14:04:51 -0500
     - by: !omap 
         - repository: http://github.com/djsun/gov-orgs
@@ -9154,6 +10656,13 @@
 --- !omap 
 - uid: 4c41635bf8ca9794b6c43b1ae86dde0a5892ff5f
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: b268ab0cd267d812476af8bf800c4b3cfa4c3b15
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -9226,6 +10735,24 @@
               - Congress, generally, no additional specification available
             - codes: 
               - "0001"
+        - urls: 
+          - http://www.usa.gov/Agencies/Federal/Legislative.shtml
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 367eb86e6c4ef06a6a108e8ad0be6c7fe0dd15e3
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Congress
+        - parents: 
+          - 780720fa637346368c04263efca848db90c83336
+        - federalreporting.gov: !omap 
+            - names: 
+              - Congress, generally, no additional specification available
+            - codes: 
+              - "0001"
     - time: 2009-12-01 14:09:02 -0500
     - by: !omap 
         - repository: http://github.com/djsun/gov-orgs
@@ -9249,6 +10776,25 @@
 --- !omap 
 - uid: aa070dbc02b88d06693b97c25fc6347a0aa61c6f
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Senate, The
+          - Senate
+        - parents: 
+          - 780720fa637346368c04263efca848db90c83336
+        - federalreporting.gov: !omap 
+            - names: 
+              - Senate, The
+            - codes: 
+              - "0010"
+        - urls: 
+          - http://www.senate.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 3cd1944422889624c3cf4b15e25c0886dc806488
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -9399,6 +10945,13 @@
 - uid: 61212d9f089e8d740d744d8ed4011b5853c0b0fd
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 0416be7fbcdc553a9a22d02a193894bcc9383f65
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Government Printing Office
@@ -9519,6 +11072,26 @@
               - Commission on Security and Cooperation in Europe
             - codes: 
               - 0901
+        - urls: 
+          - http://www.csce.gov
+        - parentheticals: 
+          - Helsinki Commission
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 5acb303fb905f3f68d8ca356a50dd2c9948bf6da
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Commission on Security and Cooperation in Europe
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Commission on Security and Cooperation in Europe
+            - codes: 
+              - 0901
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -9527,6 +11100,24 @@
 --- !omap 
 - uid: 36015b2705d60751f899c99354a52748618d6880
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Botanic Garden
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Botanic Garden
+            - codes: 
+              - 0902
+        - urls: 
+          - http://www.usbg.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 7956beb2be5d8b8b0271b717a77c7fcc8f21b8dc
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -9804,6 +11395,24 @@
               - Supreme Court of the United States
             - codes: 
               - "1001"
+        - urls: 
+          - http://www.supremecourtus.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: c2e93d502ca4701c8b6e081fad16cb13e7b4b19a
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Supreme Court of the United States
+        - parents: 
+          - 0ed17019889b146e48ae31b20d7b65adefd6f490
+        - federalreporting.gov: !omap 
+            - names: 
+              - Supreme Court of the United States
+            - codes: 
+              - "1001"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -9941,6 +11550,13 @@
 --- !omap 
 - uid: 4d2fdeda9eff8aa7f78753b28f7fe6ec1d4f750a
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1933748e3b3e77e406f97c91f9b9cfdb814585bf
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -10184,6 +11800,13 @@
 --- !omap 
 - uid: 8fce9d9167be287919d47b55c7b0cec7d1862204
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: b650ec287b5caa70c74c2796df2351cb5e7d9de7
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -10500,6 +12123,13 @@
 - uid: 352a8b83937190edac2249ce4515c25dc25c35eb
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: e9669fc2bc65a7e2e770c6e057091b206d06fb02
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Inter-American Foundation
@@ -10518,6 +12148,24 @@
 --- !omap 
 - uid: 2361ac5aaab624bbcf77031a5fd677c958074aa8
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Peace Corps
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - Peace Corps
+            - codes: 
+              - "1145"
+        - urls: 
+          - http://www.peacecorps.gov/indexf.cfm
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 30c73288d554653eceec623cb994ca1e865b0746
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -11448,6 +13096,13 @@
 - uid: 78bfc33533e8586d8fba1037d30c4d858bfcae11
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: b633966abc165f2e4f98dc348280b2324d69aef8
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Forest Service
@@ -11534,6 +13189,24 @@
               - Farm Service Agency
             - codes: 
               - 12D2
+        - urls: 
+          - http://www.fsa.usda.gov/pas/default.asp
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 3a88aa6e4008c4408a078b08a6a72483cbd55314
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Farm Service Agency
+        - parents: 
+          - 0673d215e0a167c076199e8745b6cc3066be0a27
+        - federalreporting.gov: !omap 
+            - names: 
+              - Farm Service Agency
+            - codes: 
+              - 12D2
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -11599,6 +13272,24 @@
 --- !omap 
 - uid: 0d53086267b3da1fb12292acd8396c061d0e2438
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Rural Utilities Service
+        - parents: 
+          - 0673d215e0a167c076199e8745b6cc3066be0a27
+        - federalreporting.gov: !omap 
+            - names: 
+              - Rural Utilities Service
+            - codes: 
+              - 12E2
+        - urls: 
+          - http://www.usda.gov/rus/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 7b0a4ed5f040cc4a7ee83c34afe2727cc0096239
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -11695,6 +13386,13 @@
 - uid: 4556f03b794d8b52b69efe941ab443493b1441ba
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 7b7cbc5099f86e9f24e1c110c319a4887b833dcf
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Food and Nutrition Service
@@ -11751,6 +13449,13 @@
 --- !omap 
 - uid: 18850eb18abe4b91acfeeee049df11dba708c92f
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 2efef81ad6c213f43b52fe003cf9ab110463b9ef
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -11971,6 +13676,24 @@
               - Grain Inspection, Packers and Stockyards Administration
             - codes: 
               - 12K4
+        - urls: 
+          - http://www.gipsa.usda.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 8bb64e1699e8b55ff5387f041a0c5a31e076c470
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Grain Inspection, Packers and Stockyards Administration
+        - parents: 
+          - 0673d215e0a167c076199e8745b6cc3066be0a27
+        - federalreporting.gov: !omap 
+            - names: 
+              - Grain Inspection, Packers and Stockyards Administration
+            - codes: 
+              - 12K4
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -12151,6 +13874,44 @@
     - data: !omap 
         - names: 
           - Bureau of the Census
+          - Census Bureau
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of the Census
+            - codes: 
+              - "1323"
+        - urls: 
+          - http://www.census.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: c622d7999182e52a1cda8fed9d7d15fe095303e9
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of the Census
+          - Census Bureau
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of the Census
+            - codes: 
+              - "1323"
+        - urls: 
+          - http://www.census.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: a46224027a7db11039eeeafeae0c5b00464c347d
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of the Census
         - parents: 
           - c648975ce4147c1bc81b7df6c7960c50c2766c38
         - federalreporting.gov: !omap 
@@ -12185,6 +13946,26 @@
 --- !omap 
 - uid: 3366de91fec1e893a170b90692db1a9d1b52a318
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Oceanic and Atmospheric Administration
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Oceanic and Atmospheric Administration
+            - codes: 
+              - "1330"
+        - urls: 
+          - http://www.noaa.gov/
+        - parentheticals: 
+          - NOAA
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 1e07e7fe08c816462d5c6e01bd70760dde871c69
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -12420,6 +14201,24 @@
 --- !omap 
 - uid: f30556f849cd05b8581d962c742450d4dfcc3a58
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Committee for the Implementation of Textile Agreements
+        - parents: 
+          - c648975ce4147c1bc81b7df6c7960c50c2766c38
+        - federalreporting.gov: !omap 
+            - names: 
+              - Committee for the Implementation of Textile Agreements
+            - codes: 
+              - "1363"
+        - urls: 
+          - http://otexa.ita.doc.gov/cita.htm
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 2b80986294aed944329b6aa46ca5b8af51222867
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -12775,6 +14574,33 @@
 - uid: 300271032fe1b2c74e3413b90fa18e895263607a
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 21eaaab7eab5e43e737104d179671d55fc1d2c96
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Land Management
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of Land Management
+            - codes: 
+              - "1422"
+        - urls: 
+          - http://www.blm.gov/nhp/index.htm
+        - parentheticals: 
+          - BLM
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: a599590c359a433c9a813f86ffaa589bcad0bf9b
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Bureau of Land Management
@@ -12793,6 +14619,25 @@
 --- !omap 
 - uid: 000623ba158dc9d5bd14df2810bd8096a9d6db5a
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Reclamation
+          - Reclamation, Bureau of
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Bureau of Reclamation
+            - codes: 
+              - "1425"
+        - urls: 
+          - http://www.usbr.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 2b9a1179c3d976047834e35475178f4a6dbdc835
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -12969,6 +14814,24 @@
               - Minerals Management Service
             - codes: 
               - "1435"
+        - urls: 
+          - http://www.mms.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 6135e4e6e929753ea930f23f0063cd7839220114
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Minerals Management Service
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Minerals Management Service
+            - codes: 
+              - "1435"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -12996,6 +14859,13 @@
 --- !omap 
 - uid: a26c592a72078016e367a3b72fbc350cebd46069
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 18b54134e944bb79cc9a91faf7dcdd86ad10b1ac
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -13089,6 +14959,13 @@
 --- !omap 
 - uid: a9c22fb6d4aecbdaf6266441c2067e39d93dfc12
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 18dcbcd2fde3cd576ad615b8ff85bb24d2afb471
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -13185,6 +15062,13 @@
 - uid: 6c77b2f23f81b1813e757fa4c7a2c9eff051dec0
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: ddbeafe954f1231f65c3c7ac8cd8cd4c61233c65
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Indian Arts and Crafts Board
@@ -13204,6 +15088,13 @@
 - uid: 1375eb1a3ff8a369e4e730f9b9ce161061c0ed74
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 10ec7eb8a9d42f886532121bbaaac7e5f1c849ef
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - National Indian Gaming Commission
@@ -13222,6 +15113,33 @@
 --- !omap 
 - uid: 0b7e6499dd545950ce19cd56a680e12912acbf26
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: f1a7b5f49ba2f68292036f502ac7f07c987f147f
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Justice
+        - parents: 
+          - 0b7e6499dd545950ce19cd56a680e12912acbf26
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Justice
+            - codes: 
+              - "1500"
+        - urls: 
+          - http://www.usdoj.gov/
+        - parentheticals: 
+          - DOJ
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: dc0c6edf9ef59ffc6304cfb1a8a17ce51a092493
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -13679,6 +15597,13 @@
 - uid: 4fd0e93c3e493aa1e92d05e9742711bf95c3e30a
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 2f4eff7559049bd406fc9314027b813b0e54b4c8
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Bureau of Labor Statistics
@@ -13736,6 +15661,13 @@
 - uid: 11f6a7d709508d469e656d5c62a2f1b969df1cf2
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: d69319b6f33718acf06bf8559dbd573d9d503508
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Employment Standards Administration
@@ -13754,6 +15686,13 @@
 --- !omap 
 - uid: d3ddebb3f5614b493a0badfde105c2f7b636dd85
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: d832e0c7563a3781481b2a241686cc68cd830f9f
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -13812,6 +15751,13 @@
 - uid: e31684ada9a0d6da4ec656bfa5e769283cc02bd8
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 6ee52746d70e75962b1d272b5202d7ad4071810b
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Women's Bureau
@@ -13830,6 +15776,13 @@
 --- !omap 
 - uid: 3f5cd1820499dcda1c14bea9607b266b9e86db68
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 494662cc5a98ccca71164e2527d713e75865eed2
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -14622,6 +16575,25 @@
 --- !omap 
 - uid: e7073a34b72a11fed241122e0996e5dc85503814
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of State
+          - State Department
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of State
+            - codes: 
+              - "1900"
+        - urls: 
+          - http://www.state.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 10d8e41aa47069c44a3ff60fc2a5702a39281877
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -15642,6 +17614,13 @@
 --- !omap 
 - uid: c2ddb85fb7b3d9bc98911a038492d7b288c1a54e
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 81b69b98dcb8d567401a5dcbbec114a7d87d8f86
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -17494,6 +19473,13 @@
 - uid: 97b39d14d2ea89b45f3ec1c23a834ff88faa5040
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: bc2101ada05e83e975e2ba641969bf068fc005ee
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Alcohol and Tobacco Tax and Trade Bureau
@@ -17550,6 +19536,13 @@
 --- !omap 
 - uid: 18023fe6f4ff248ce080242c0e77b5db802e77e8
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: ed8654a9c071feaf9a16d768a737aac10c3e5590
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -17740,6 +19733,24 @@
 --- !omap 
 - uid: f7e5e51a58de757f919ead348f15bb89e2a64814
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Legal Services Corporation
+        - parents: 
+          - 52ef6bf47eb0df7fb8e7b931fce72666c8b2a394
+        - federalreporting.gov: !omap 
+            - names: 
+              - Legal Services Corporation
+            - codes: 
+              - "2095"
+        - urls: 
+          - http://www.lsc.gov
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 46e25c08c1aba580d5343dc5c45f1043d46609a6
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -19996,6 +22007,26 @@
               - Social Security Administration
             - codes: 
               - "2800"
+        - urls: 
+          - http://www.ssa.gov/
+        - parentheticals: 
+          - SSA
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: e2f4fd6de850a245dba85552bbda11cff58b9fe7
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Social Security Administration
+        - parents: 
+          - 1fe27d106be225f4b1150e6c68900a95edb221e4
+        - federalreporting.gov: !omap 
+            - names: 
+              - Social Security Administration
+            - codes: 
+              - "2800"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -20284,6 +22315,13 @@
 - uid: 71211ff321f68c21ff0df58a32cce8a8037ae758
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 846eca56db853ecb998574befc9befd6cb11062c
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Nuclear Regulatory Commission
@@ -20303,6 +22341,13 @@
 - uid: aca256c598bab155fd4825fddc8e14b4ed4f246c
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: caf1cb20cdc0e3c36e4e18a012a9990e49dad9f2
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Smithsonian Institution
@@ -20321,6 +22366,13 @@
 --- !omap 
 - uid: 3990a1bd6dc9a3f8462d4ba85dec2ee5a32a0f3e
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: caf1cb20cdc0e3c36e4e18a012a9990e49dad9f2
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -20355,6 +22407,24 @@
 --- !omap 
 - uid: 5ddd83d0ca8650c9905f75fff670a7d7c21fce5b
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - John F. Kennedy Center for the Performing Arts
+        - parents: 
+          - aca256c598bab155fd4825fddc8e14b4ed4f246c
+        - federalreporting.gov: !omap 
+            - names: 
+              - John F. Kennedy Center for the Performing Arts
+            - codes: 
+              - "3352"
+        - urls: 
+          - http://www.kennedy-center.org/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: e58b8812d87e4eff2c7810b4283c76c112d927bc
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -20404,6 +22474,24 @@
               - Woodrow Wilson International Center for Scholars
             - codes: 
               - "3358"
+        - urls: 
+          - http://www.wilsoncenter.org
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4c41635bf8ca9794b6c43b1ae86dde0a5892ff5f
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Woodrow Wilson International Center for Scholars
+        - parents: 
+          - aca256c598bab155fd4825fddc8e14b4ed4f246c
+        - federalreporting.gov: !omap 
+            - names: 
+              - Woodrow Wilson International Center for Scholars
+            - codes: 
+              - "3358"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -20412,6 +22500,13 @@
 --- !omap 
 - uid: 52f60ee7a88951429ceb50fd36357b29e65a6e86
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: d9d674c2f1c11eb1a4ee7845b8198ca52b00ffd8
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -20431,6 +22526,13 @@
 --- !omap 
 - uid: 6e2e26a26df9bab6444c43fa965142af12218475
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1f2065c7d2abe8adaa8e68c33341879fbc42ab70
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -20640,6 +22742,24 @@
 --- !omap 
 - uid: 2167389ddb66b02740489ecba1e1ab7b3f9c59ab
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Board of Contract Appeals
+        - parents: 
+          - 6e2e26a26df9bab6444c43fa965142af12218475
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - Board of Contract Appeals
+            - codes: 
+              - "3612"
+              - "6912"
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 67800c3098b78288c7a46ddee6984a2a3f6d9eb3
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -21944,6 +24064,24 @@
               - State Justice Institute
             - codes: 
               - "4817"
+        - urls: 
+          - http://www.statejustice.org/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 208591066fe8d173af91e6aa54d83ea9af341aee
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - State Justice Institute
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - State Justice Institute
+            - codes: 
+              - "4817"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -22625,6 +24763,26 @@
               - Federal Deposit Insurance Corporation
             - codes: 
               - "5100"
+        - urls: 
+          - http://www.fdic.gov/
+        - parentheticals: 
+          - FDIC
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 37186f94f99263b5b8ba3b24947fb1f628b60aca
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Deposit Insurance Corporation
+        - parents: 
+          - 700961d35e452dcd5a660a8bf7c3483d396f1872
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Deposit Insurance Corporation
+            - codes: 
+              - "5100"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -22633,6 +24791,13 @@
 --- !omap 
 - uid: 883866b9368802b295b2e3bc04d109ca7ad44b03
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: cc80c70e72ce397c54621f9a2645b8263512c80c
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -22652,6 +24817,13 @@
 --- !omap 
 - uid: 02d92716de94cbd0512e1da5b3875a1d26496f9b
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 7ab599789ccfdd4d1e618559320db9c2d40e2f67
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -23790,6 +25962,13 @@
 - uid: 8389f1124b0df5b3eec2f7f9d5601e3a9c3c2392
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: b6819cdc845f96ee6dec7fd15d3b3cf2b89fe12c
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Air National Guard Units
@@ -24177,6 +26356,28 @@
         - federalreporting.gov: !omap 
             - names: 
               - Air National Guard Units (Title 32)
+              - Air National Guard Units (Mobilization) (Title 5)
+            - codes: 
+              - 57NG
+              - "5734"
+        - parentheticals: 
+          - Title 32
+          - Title 5
+          - Mobilization
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 8389f1124b0df5b3eec2f7f9d5601e3a9c3c2392
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Air National Guard Units
+        - parents: 
+          - 356b21d2d935317b3b3e00433e4284763bf3201b
+        - federalreporting.gov: !omap 
+            - names: 
+              - Air National Guard Units (Title 32)
             - codes: 
               - 57NG
         - parentheticals: 
@@ -24315,6 +26516,13 @@
 - uid: 7a5e5f6af74a6462eb0657e9c98a18ab99551142
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 110a33bab72155aa53f14c06d563c9f79ce8b139
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - National Endowment for the Arts
@@ -24439,6 +26647,26 @@
               - Consumer Product Safety Commission
             - codes: 
               - "6100"
+        - urls: 
+          - http://www.cpsc.gov/
+        - parentheticals: 
+          - CPSC
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: f06c25aa574154b56e4fba5b837ee0c003061bf5
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Consumer Product Safety Commission
+        - parents: 
+          - 7bc5c89e7aa675320ba68173d2c024a6fda52c8b
+        - federalreporting.gov: !omap 
+            - names: 
+              - Consumer Product Safety Commission
+            - codes: 
+              - "6100"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -24477,6 +26705,24 @@
               - National Labor Relations Board
             - codes: 
               - "6300"
+        - urls: 
+          - http://www.nlrb.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 582e056ce982e952033fca6317b8926c74f89550
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Labor Relations Board
+        - parents: 
+          - 243873f9f806789939c4a3caff5ee2ac8a28cb20
+        - federalreporting.gov: !omap 
+            - names: 
+              - National Labor Relations Board
+            - codes: 
+              - "6300"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -24485,6 +26731,24 @@
 --- !omap 
 - uid: 5d1326d2a63bb0b979c293c121f59c9172c51186
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Tennessee Valley Authority
+        - parents: 
+          - 5d1326d2a63bb0b979c293c121f59c9172c51186
+        - federalreporting.gov: !omap 
+            - names: 
+              - Tennessee Valley Authority
+            - codes: 
+              - "6400"
+        - urls: 
+          - http://www.tva.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 547507c8f91f6f08cda386fe723837eea6aa561c
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -25059,6 +27323,27 @@
     - data: !omap 
         - names: 
           - Department of Transportation
+          - Transportation Department
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Transportation
+            - codes: 
+              - "6900"
+        - urls: 
+          - http://www.dot.gov/
+        - parentheticals: 
+          - DOT
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 04f7f8504ec1c260635740ff16e31e7e49bd0717
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Transportation
         - parents: 
           - 28d7fc631f609c4949332413d6a7bec09bebd296
         - federalreporting.gov: !omap 
@@ -25334,6 +27619,13 @@
 - uid: 67800c3098b78288c7a46ddee6984a2a3f6d9eb3
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 2167389ddb66b02740489ecba1e1ab7b3f9c59ab
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Board of Contract Appeals
@@ -25577,6 +27869,13 @@
 - uid: aac1427dea78ac3aaa6bbed385a6c7f7c810e0ba
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 0e9f452e9b7171b9eb80bef7e04597a280e1a336
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - National Highway Traffic Safety Administration
@@ -25595,6 +27894,26 @@
 --- !omap 
 - uid: d5c4333b0eab44937f3f9d7215ef9effb5ef8853
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Research and Innovative Technology Administration
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - Research and Innovative Technology Administration
+            - codes: 
+              - "6943"
+        - urls: 
+          - http://www.rita.dot.gov/
+        - parentheticals: 
+          - Transportation Department
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 30939774f1db28cf12bbe5aa75131533bb661494
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -25653,6 +27972,13 @@
 - uid: b61b2433a5230c2ba83133a8905055f69eb2c4f8
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 85a2ce2eb637a8a5cb8b777514689641f3b7dd33
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Transit Administration
@@ -25671,6 +27997,24 @@
 --- !omap 
 - uid: 3efe01a67910df3407d1ccfb118cb47cea891439
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Pipeline and Hazardous Materials Safety Administration
+        - parents: 
+          - 28d7fc631f609c4949332413d6a7bec09bebd296
+        - federalreporting.gov: !omap 
+            - names: 
+              - Pipeline and Hazardous Materials Safety Administration
+            - codes: 
+              - "6957"
+        - urls: 
+          - http://www.phmsa.dot.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: be77437ac9763e630299baf0e88d98c08155f49a
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -25749,6 +28093,48 @@
     - data: !omap 
         - names: 
           - Department of Homeland Security
+          - Homeland Security Department
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Homeland Security
+            - codes: 
+              - "7000"
+        - urls: 
+          - http://www.dhs.gov
+        - parentheticals: 
+          - DHS
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 13bb33964f307795eb021a2b4f9d8ff93ccb5180
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Homeland Security
+          - Homeland Security Department
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - Department of Homeland Security
+            - codes: 
+              - "7000"
+        - urls: 
+          - http://www.dhs.gov
+        - parentheticals: 
+          - DHS
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 2a46eb0b700e3f365f93e4f0a8682988a576b297
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Department of Homeland Security
         - parents: 
           - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
         - federalreporting.gov: !omap 
@@ -25802,6 +28188,13 @@
 --- !omap 
 - uid: f593a72844c4fb58b897e2bf9c14a5d9230ba958
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 3205b632e7e655303f395b0c7ebaf714484cdc5a
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -25889,6 +28282,24 @@
               - U.S. Immigration and Customs Enforcement
             - codes: 
               - "7012"
+        - urls: 
+          - http://www.ice.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 89a12badf3b8fcf0434cdebe06a18d54f497b7f0
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Immigration and Customs Enforcement
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Immigration and Customs Enforcement
+            - codes: 
+              - "7012"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -25897,6 +28308,24 @@
 --- !omap 
 - uid: cb46a45501ae563d9c6ce8bec38e8045a7ba418f
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Transportation Security Administration
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - Transportation Security Administration
+            - codes: 
+              - "7013"
+        - urls: 
+          - http://www.tsa.gov
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 70aa91fc81f5ba5840da2e7b8438b820fbe352d5
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -25936,6 +28365,13 @@
 - uid: 6363dbe88a8110c83c36886d65b67368a5abbcab
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 3646c59761fe42970f9852201b04ca989defbe9c
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Law Enforcement Training Center
@@ -25954,6 +28390,26 @@
 --- !omap 
 - uid: 645152fe51a5b5ad49ced5c99f359be30b42de20
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Emergency Management Agency
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Emergency Management Agency
+            - codes: 
+              - "7022"
+        - urls: 
+          - http://www.fema.gov/
+        - parentheticals: 
+          - FEMA
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4130a97427d2d5c6b9fe5028d1221c99053cecd5
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -26497,6 +28953,24 @@
               - Substance Abuse and Mental Health Services Administration
             - codes: 
               - "7522"
+        - urls: 
+          - http://www.samhsa.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 7c4775bc4b7643b5337bfac98ab712e9a460a84e
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Substance Abuse and Mental Health Services Administration
+        - parents: 
+          - 3febd0d4cae61077c3ebfb9bfce7974fb5f22763
+        - federalreporting.gov: !omap 
+            - names: 
+              - Substance Abuse and Mental Health Services Administration
+            - codes: 
+              - "7522"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -26749,6 +29223,13 @@
 --- !omap 
 - uid: 2533676025593a2e743c26a5c61824b518820c13
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: e8cb1d3c0aa5be7fcb448354ed6ab7d972ff7318
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -27204,6 +29685,13 @@
 - uid: 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 570330d42cbdaf15c349205fb96a2b7d03ddcd1b
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Department of Housing and Urban Development
@@ -27488,6 +29976,26 @@
 --- !omap 
 - uid: 4b040c14da96182e5e39a565e49d798a078b15f7
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Government National Mortgage Association
+        - parents: 
+          - 4c95dfcbb2682fda8cf2e0d022e734c5cb66877f
+        - federalreporting.gov: !omap 
+            - names: 
+              - Government National Mortgage Association (Ginnie Mae)
+            - codes: 
+              - "8625"
+        - parentheticals: 
+          - Ginnie Mae
+        - urls: 
+          - http://www.ginniemae.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 85351aa2b02944d257ee1bed72e922459a04d990
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -28091,6 +30599,13 @@
 - uid: 2948ba8841408755b961cbf42e3d75e04670cd44
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 3d855ab4c2c7db902d6bbe0e30419631b13a5d38
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Department of Energy
@@ -28673,6 +31188,13 @@
 --- !omap 
 - uid: f3e5d59a03023f5d12482cb0599931f23b691886
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1bea7777e4a6cb10ab5ebe414d3af664235895bd
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -29684,6 +32206,24 @@
               - Selective Service System
             - codes: 
               - "9000"
+        - urls: 
+          - http://www.sss.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 718085712742f26a632b8d30200e594baa7828f1
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Selective Service System
+        - parents: 
+          - 1f4bc88d55c0fb1c6993c2f67408fdcc14636e7f
+        - federalreporting.gov: !omap 
+            - names: 
+              - Selective Service System
+            - codes: 
+              - "9000"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -29962,6 +32502,25 @@
     - data: !omap 
         - names: 
           - Office of English Language Acquisition
+          - English Language Acquisition Office
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Office of English Language Acquisition
+            - codes: 
+              - "9121"
+        - urls: 
+          - http://www.ed.gov/about/offices/list/oela/index.html?src=mr
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 3997d9c3ab61e84ab65bc2c95cf77ec0df5b6e46
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Office of English Language Acquisition
         - parents: 
           - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
         - federalreporting.gov: !omap 
@@ -30153,6 +32712,24 @@
               - Federal Student Aid
             - codes: 
               - "9131"
+        - urls: 
+          - http://www.ed.gov/about/offices/list/fsa/index.html
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 6320ee7687f715274c787353d5699fb37492e610
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Student Aid
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Student Aid
+            - codes: 
+              - "9131"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -30294,6 +32871,24 @@
 --- !omap 
 - uid: 7f6aeea25801bb719d41ca8880dfc578770d8657
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Institute of Education Sciences
+        - parents: 
+          - 6678554e5afee1af3fcbd39a53c2f796a0d73a14
+        - federalreporting.gov: !omap 
+            - names: 
+              - Institute of Education Sciences
+            - codes: 
+              - "9139"
+        - urls: 
+          - http://www.ed.gov/about/offices/list/ies/index.html
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 8e215b9ce178bee008b571c4c44694c8bca51921
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -30577,6 +33172,13 @@
 - uid: 30a38738472cc74789cb7415593c58061e2744df
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 7c80c1163fa050de3534ac696fffd643db8f6573
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Interagency Committee on Education
@@ -30744,6 +33346,13 @@
 - uid: 48838f95f74b424cf70509753be4a08da2fbb705
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 2b207be6b40c0f55e48da89690fc11b92550f0de
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Mediation and Conciliation Service
@@ -30763,6 +33372,13 @@
 - uid: e654e57142a81e2d7ac2d13ac38ec5ad5f5e381e
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: d02e7b231d622e5809da077239ffa5784d293011
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - National Capital Planning Commission
@@ -30781,6 +33397,13 @@
 --- !omap 
 - uid: 71cbd2191fa8f255f632b9e55325da79ad4db1c4
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 8d884b7c974c3b3f5b7ad6799d39cb15b50e25d2
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -30887,6 +33510,24 @@
               - Harry S. Truman Scholarship Foundation
             - codes: 
               - "9510"
+        - urls: 
+          - http://www.truman.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 9d5d7c115f78bb16af2d4ee92d4a64a3f1cbd389
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Harry S. Truman Scholarship Foundation
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Harry S. Truman Scholarship Foundation
+            - codes: 
+              - "9510"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -30952,6 +33593,13 @@
 --- !omap 
 - uid: 8e25af0f47f11d455ca8d95d52818c6f5e8be287
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 2e0f68775857329465e376d6dc6c9c1c1cdf856c
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -31028,6 +33676,13 @@
 --- !omap 
 - uid: bef35937e6b8dd5e43508f0d04a674603aabb1d2
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 4f5dde688bc3fb513c1dcfd0bb36335c90a39a7c
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -31210,6 +33865,24 @@
               - Federal Housing Finance Board
             - codes: 
               - "9540"
+        - urls: 
+          - http://www.fhfb.gov/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 725b8b0a262d9236ba86a4f874d21a6edf4154da
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Federal Housing Finance Board
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Federal Housing Finance Board
+            - codes: 
+              - "9540"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -31218,6 +33891,13 @@
 --- !omap 
 - uid: 02fc1ae1be3d76184e6e710f2434f598191121dc
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 5ac1f6db432603d733220a4b5976feb870c7dc33
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -31485,6 +34165,44 @@
     - data: !omap 
         - names: 
           - Broadcasting Board of Governors
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Broadcasting Board of Governors
+            - codes: 
+              - "9568"
+              - 195C
+        - urls: 
+          - http://www.bbg.gov/
+        - parentheticals: 
+          - Voice of America, Radio|TV Marti and more
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 3660b1f9a12dd5b541f05866f260ec0e65641803
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Broadcasting Board of Governors
+        - parents: 
+          - e7073a34b72a11fed241122e0996e5dc85503814
+        - federalreporting.gov: !omap 
+            - names: 
+              - Broadcasting Board of Governors
+            - codes: 
+              - "9568"
+              - 195C
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: c2ddb85fb7b3d9bc98911a038492d7b288c1a54e
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Broadcasting Board of Governors
         - parents: []
 
         - federalreporting.gov: !omap 
@@ -31557,6 +34275,13 @@
 --- !omap 
 - uid: abb1845e2605426b5b3a2dad071fd3de4d2afbe9
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 9eb1e2721ee914a292d781246051000dc7e897cf
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -31708,6 +34433,13 @@
 - uid: 850273d9cd938a4438b621c06f5b4b9fb7a6a0ad
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 738964d8f31ec18d96aab7d7e24ae5975e7e5086
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Court Services and Offender Supervision Agency for the District of Columbia
@@ -31783,6 +34515,24 @@
 --- !omap 
 - uid: b2ed80cb44affdec940c1ed78b63c87927dcd3ba
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Mississippi River Commission
+        - parents: []
+
+        - federalreporting.gov: !omap 
+            - names: 
+              - Mississippi River Commission
+            - codes: 
+              - "9668"
+        - urls: 
+          - http://www.mvd.usace.army.mil/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: e74007342bcd835e17668bff3fe6c5c3b745bb71
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -32050,6 +34800,24 @@
               - Defense Contract Management Agency
             - codes: 
               - "9763"
+        - urls: 
+          - http://www.dcma.mil/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: d1b905942f8cea55b2d4bc3d20a62d0c9051e6b0
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Contract Management Agency
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Contract Management Agency
+            - codes: 
+              - "9763"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -32058,6 +34826,24 @@
 --- !omap 
 - uid: 85ba42579bc0d4bb3b6c3fceb5f2ac31e4c09f3a
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Pentagon Force Protection Agency
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Pentagon Force Protection Agency
+            - codes: 
+              - "9765"
+        - urls: 
+          - http://www.pfpa.mil/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 1f5dc14f1d409b92702067687e560cbe6e57f721
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -32115,6 +34901,13 @@
 --- !omap 
 - uid: ccca8d441c7fd5c2591d836dc3340242d0b6802e
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: bb031a6f24ee33ca09466d216179503ba6d6f4e9
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -32221,6 +35014,24 @@
               - Defense Technical Information Center
             - codes: 
               - "9774"
+        - urls: 
+          - http://www.dtic.mil
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 40f42fa90215dbaba4dfce83b982b80bb938e893
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Technical Information Center
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Technical Information Center
+            - codes: 
+              - "9774"
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -32229,6 +35040,13 @@
 --- !omap 
 - uid: 833c6b56584fd051090b67ef325ddb2a3e5b44b2
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1ade35a9f2d5bf940f7c32b92da9af91283e7dc3
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -32278,6 +35096,26 @@
               - Defense Advanced Research Projects Agency
             - codes: 
               - 97AE
+        - urls: 
+          - http://www.darpa.mil/
+        - parentheticals: 
+          - DARPA
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: a1cd1b826ceed658edea7570c1a7954408c953ee
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Advanced Research Projects Agency
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Advanced Research Projects Agency
+            - codes: 
+              - 97AE
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -32297,6 +35135,26 @@
               - Defense Information Systems Agency
             - codes: 
               - 97AK
+        - urls: 
+          - http://www.disa.mil/
+        - parentheticals: 
+          - DISA
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 5225666c8b1767c9a6ddaac606c41d4aee9c9cb3
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Information Systems Agency
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Information Systems Agency
+            - codes: 
+              - 97AK
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -32305,6 +35163,24 @@
 --- !omap 
 - uid: 444203d56dce4cbabc9762beb3cf1ac1512e2004
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Legal Services Agency
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Legal Services Agency
+            - codes: 
+              - 97AQ
+        - urls: 
+          - http://www.defenselink.mil/dodgc/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: a89e7bb103ae5cddf508db5801c5228a085f71c8
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -32373,6 +35249,26 @@
               - Defense Security Cooperation Agency
             - codes: 
               - 97AT
+        - urls: 
+          - http://www.dsca.mil/
+        - parentheticals: 
+          - DSCA
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 4981d0ca884be36467be25b4574fd69770aff7b6
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Security Cooperation Agency
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Security Cooperation Agency
+            - codes: 
+              - 97AT
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -32411,6 +35307,26 @@
               - Defense Security Service
             - codes: 
               - 97AV
+        - urls: 
+          - http://www.dss.mil/
+        - parentheticals: 
+          - DSS
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: 9d1b681ab456c3d9eb97d4a41f67ca242e70fd41
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Security Service
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Security Service
+            - codes: 
+              - 97AV
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -32419,6 +35335,24 @@
 --- !omap 
 - uid: 8bd5254a68a75bf0391fc81bf06958b96a6349c0
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Defense Commissary Agency
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Defense Commissary Agency
+            - codes: 
+              - 97AZ
+        - urls: 
+          - http://www.commissaries.com/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: d944ff68e1d94ca0cdf0af8cd468b0d1154c50be
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -32597,6 +35531,24 @@
               - Washington Headquarters Services
             - codes: 
               - 97F5
+        - urls: 
+          - http://www.whs.mil/
+    - time: 2009-12-01 14:09:25 -0500
+    - merged_from: be330bc7b51197e8b99db9c90f109e1c88fb0f56
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Washington Headquarters Services
+        - parents: 
+          - cf0d1875d98fac9dce5b9cac8850999af4930292
+        - federalreporting.gov: !omap 
+            - names: 
+              - Washington Headquarters Services
+            - codes: 
+              - 97F5
     - time: 2009-12-01 14:03:15 -0500
     - source_uri: https://www.federalreporting.gov/federalreporting/agencyCodes.do
     - by: !omap 
@@ -32605,6 +35557,13 @@
 --- !omap 
 - uid: 48f0f7d823cd5b6b5024e2814b74b4eb2cad4d95
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 101794e7f3a38b2f054b737c07796531012745e2
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -32643,6 +35602,13 @@
 --- !omap 
 - uid: f3e1e911aa8f991b41adf0fe28e69095aee5fd89
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: af0257acc6368dd97e78c4e65cc35a07443e862f
+    - time: 2009-12-01 14:09:25 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
