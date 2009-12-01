@@ -545,6 +545,18 @@
     - data: !omap 
         - names: 
           - Bureau of Prisons
+          - Federal Bureau of Prisons
+        - urls: 
+          - http://www.bop.gov/
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: d506f9c602e61823790f7a1ca1be22829b328a5d
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Bureau of Prisons
         - urls: 
           - http://www.bop.gov/
     - time: 2009-12-01 14:02:31 -0500
@@ -1141,6 +1153,25 @@
     - data: !omap 
         - names: 
           - Coast Guard
+          - U.S. Coast Guard
+        - urls: 
+          - http://www.uscg.mil/
+        - parents: 
+          - 4c6f5f5a552c360dd21971ec07d5687e1fb76772
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Coast Guard
+            - codes: 
+              - "7008"
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: 9fc6cc7547c0b035826bdcd491b12607ffa21b34
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Coast Guard
         - urls: 
           - http://www.uscg.mil/
     - time: 2009-12-01 14:02:32 -0500
@@ -1347,6 +1378,13 @@
 --- !omap 
 - uid: 7531c3513d78d38b879f7079b820a8d958c8e813
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 8860944f7c87735af098ccb675a2a657a34309e9
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -1644,6 +1682,13 @@
 --- !omap 
 - uid: 3f2644ca8279a1740572aafb959d21265ab4bf4d
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 22c00cda14a50f4be375389ef8c3504ce3a5bea7
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -4167,6 +4212,13 @@
 - uid: d506f9c602e61823790f7a1ca1be22829b328a5d
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 75cbebd452f6121c0d6d9bf04f0b255797e6c495
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Federal Bureau of Prisons
@@ -5910,6 +5962,27 @@
     - data: !omap 
         - names: 
           - House Representatives on the Web
+          - House of Representatives, The
+          - House of Representatives
+        - urls: 
+          - http://www.house.gov/house/MemberWWW.html
+          - http://www.house.gov/
+        - parents: 
+          - 780720fa637346368c04263efca848db90c83336
+        - federalreporting.gov: !omap 
+            - names: 
+              - House of Representatives, The
+            - codes: 
+              - "0050"
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: f9d0dfad01d917ebbb0b86ab709f73d08af069ad
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - House Representatives on the Web
         - urls: 
           - http://www.house.gov/house/MemberWWW.html
     - time: 2009-12-01 14:02:37 -0500
@@ -6175,6 +6248,29 @@
 --- !omap 
 - uid: 4914507fb8a7c03261748b6d32717bd978c3c761
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Indian Affairs, Bureau of
+          - Bureau of Indian Affairs
+          - Indian Affairs
+        - urls: 
+          - http://www.doi.gov/bureau-indian-affairs.html
+        - parentheticals: 
+          - BIA
+          - Assistant Secretary
+        - parents: 
+          - 551e9728320118ffa3741a00f2a29574f88a5c54
+        - federalreporting.gov: !omap 
+            - names: 
+              - Indian Affairs (Assistant Secretary)
+            - codes: 
+              - "1450"
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: c6907cbf81062df09cfdb5d585c3c6b223d2e034
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -7330,6 +7426,25 @@
     - data: !omap 
         - names: 
           - Marine Corps
+          - U.S. Marine Corps
+        - urls: 
+          - http://www.usmc.mil/
+        - parents: 
+          - 5a1d98af9ea0cb67001fec226a572f5469f520a5
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Marine Corps
+            - codes: 
+              - "1727"
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: 44d5f378e6ac616c54e2bab0dd0baf0a0bdb959e
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Marine Corps
         - urls: 
           - http://www.usmc.mil/
     - time: 2009-12-01 14:02:43 -0500
@@ -8135,6 +8250,18 @@
 --- !omap 
 - uid: 22c00cda14a50f4be375389ef8c3504ce3a5bea7
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - National Constitution Center
+          - Constitution Center
+        - urls: 
+          - http://www.constitutioncenter.org/
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: 3f2644ca8279a1740572aafb959d21265ab4bf4d
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -12778,6 +12905,13 @@
 - uid: 197e7085eb75851b56cbca31e0785b27b9b3a549
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 7b444964bee492ac2b5ad69ba89ba6e39e9b2871
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - White House
@@ -13101,6 +13235,13 @@
 --- !omap 
 - uid: f9d0dfad01d917ebbb0b86ab709f73d08af069ad
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: 1141a38b1bdb3c3a1f216a26ffbfe82f9cdfe435
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -14364,6 +14505,25 @@
     - data: !omap 
         - names: 
           - White House Office
+          - White House
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - White House Office
+            - codes: 
+              - "1117"
+        - urls: 
+          - http://www.whitehouse.gov/
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: 197e7085eb75851b56cbca31e0785b27b9b3a549
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - White House Office
         - parents: 
           - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
         - federalreporting.gov: !omap 
@@ -14728,6 +14888,25 @@
 --- !omap 
 - uid: 8860944f7c87735af098ccb675a2a657a34309e9
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Commission on the Intelligence Capabilities of the U. S. Regarding Weapons of Mass Destruction
+          - Commission on the Intelligence Capabilities of the United States Regarding Weapons of Mass Destruction
+        - parents: 
+          - 9d286cb2e4f6451f57977d11bb90b5b9fd2b3f3e
+        - federalreporting.gov: !omap 
+            - names: 
+              - Commission on the Intelligence Capabilities of the U. S. Regarding Weapons of Mass Destruction
+            - codes: 
+              - "1170"
+        - urls: 
+          - http://www.whitehouse.gov/news/releases/2004/02/20040206-10.html
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: 7531c3513d78d38b879f7079b820a8d958c8e813
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -17624,6 +17803,13 @@
 - uid: c6907cbf81062df09cfdb5d585c3c6b223d2e034
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 4914507fb8a7c03261748b6d32717bd978c3c761
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Indian Affairs
@@ -18910,6 +19096,13 @@
 --- !omap 
 - uid: 44d5f378e6ac616c54e2bab0dd0baf0a0bdb959e
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: e13794c5b3c1f4d34579569283ca0decd0e106df
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -23749,6 +23942,27 @@
     - data: !omap 
         - names: 
           - U.S. Army Materiel Command
+          - U.S. Army Materiel Command, all others
+        - parents: 
+          - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
+        - federalreporting.gov: !omap 
+            - names: 
+              - U.S. Army Materiel Command (AMC)
+              - U.S. Army Materiel Command, all others
+            - codes: 
+              - 21X1
+              - 21X5
+        - parentheticals: 
+          - AMC
+    - time: 2009-12-01 14:10:40 -0500
+    - merged_from: 62ee3fedf5c631b0588d2c53cb851a95d5a77d92
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
+    - data: !omap 
+        - names: 
+          - U.S. Army Materiel Command
         - parents: 
           - 9b0e5c9d98a0e47e52670596ecd6f1a5e3847b30
         - federalreporting.gov: !omap 
@@ -23838,6 +24052,13 @@
 --- !omap 
 - uid: 62ee3fedf5c631b0588d2c53cb851a95d5a77d92
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: e75492f08df3bbf763d57275c313d98176929289
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
@@ -31544,6 +31765,13 @@
 --- !omap 
 - uid: 9fc6cc7547c0b035826bdcd491b12607ffa21b34
 - versions: 
+  - !omap 
+    - deleted: true
+    - merged_into: d84b6a643e72711962482653194f9d1fc8ccd881
+    - time: 2009-12-01 14:10:40 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
