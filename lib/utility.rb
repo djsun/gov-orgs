@@ -82,6 +82,7 @@ class Utility
   end
   
   def self.setup_api(api_key, base_uri)
+    gem 'datacatalog', '>= 0.3.7'
     require 'datacatalog'
     DataCatalog.api_key  = api_key
     DataCatalog.base_uri = base_uri
