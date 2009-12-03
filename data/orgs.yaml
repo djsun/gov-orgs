@@ -2,6 +2,13 @@
 - uid: 0784faae7720d55cf1d14c6d55652282d9a22863
 - versions: 
   - !omap 
+    - deleted: true
+    - merged_into: 1fe27d106be225f4b1150e6c68900a95edb221e4
+    - time: 2009-12-03 16:49:04 -0500
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
+  - !omap 
     - data: !omap 
         - names: 
           - Apply for Social Security
@@ -25246,6 +25253,28 @@
 --- !omap 
 - uid: 1fe27d106be225f4b1150e6c68900a95edb221e4
 - versions: 
+  - !omap 
+    - data: !omap 
+        - names: 
+          - Social Security Administration
+          - Apply for Social Security
+        - parents: 
+          - 1fe27d106be225f4b1150e6c68900a95edb221e4
+        - federalreporting.gov: !omap 
+            - names: 
+              - Social Security Administration
+            - codes: 
+              - "2800"
+        - urls: 
+          - http://www.ssa.gov/
+          - http://www.ssa.gov/top10.html
+        - parentheticals: 
+          - SSA
+    - time: 2009-12-03 16:49:04 -0500
+    - merged_from: 0784faae7720d55cf1d14c6d55652282d9a22863
+    - by: !omap 
+        - repository: http://github.com/djsun/gov-orgs
+        - file: merge_migration.rb
   - !omap 
     - data: !omap 
         - names: 
