@@ -1,5 +1,20 @@
-development: &template
+local: &template
   api:
     api_key: "0000000000000000000000000000000000000000"
     base_uri: http://localhost:3000
+    time_delay: 0
+sandbox: *template
+  api:
+    api_key: "0000000000000000000000000000000000000000"
+    base_uri: http://sandbox.nationaldatacatalog.com
+    time_delay: 0
+staging: *template
+  api:
+    api_key: "0000000000000000000000000000000000000000"
+    base_uri: http://api.staging.nationaldatacatalog.com
+    time_delay: 0
+production: *template
+  api:
+    api_key: "0000000000000000000000000000000000000000"
+    base_uri: http://api.nationaldatacatalog.com
     time_delay: 0
