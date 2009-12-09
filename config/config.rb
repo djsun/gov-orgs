@@ -32,7 +32,7 @@ module Config
     if @environment
       @environment
     else
-      ENV['RACK_ENV'] || 'development'
+      ENV['IMPORTER_ENV'] || 'development'
     end
   end
   
